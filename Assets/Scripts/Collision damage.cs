@@ -8,9 +8,18 @@ public class CollisionDamage : MonoBehaviour
     {
         Health health = collision.gameObject.GetComponent<Health>();
 
-        if (health != null)
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Bullet"))
         {
-            health.TakeDamage(damage);
+            Health health = GetComponent<Health>(); // получаем своё здоровье
+            if (health != null)
+            {
+                health.TakeDamage(10); // допустим, каждая пуля наносит 10 урона
+                Destroy(collision.gameObject); // уничтожаем пулю при попадании
+            }
         }
     }
 }

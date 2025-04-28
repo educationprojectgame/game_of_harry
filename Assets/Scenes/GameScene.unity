@@ -213,6 +213,7 @@ GameObject:
   - component: {fileID: 376455932}
   - component: {fileID: 376455933}
   - component: {fileID: 376455934}
+  - component: {fileID: 376455935}
   m_Layer: 0
   m_Name: Monster
   m_TagString: Untagged
@@ -311,7 +312,7 @@ Transform:
   m_GameObject: {fileID: 376455927}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -30.7, y: 8.1, z: 0}
+  m_LocalPosition: {x: -30.7, y: 16.55, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -415,6 +416,19 @@ MonoBehaviour:
   dialogueText: 'Monster: "Rrroaargh!!!"'
   activationDistance: 10
   player: {fileID: 1453195299}
+--- !u!114 &376455935
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 376455927}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7492ce5809fc0f44960bf343d3232d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 10
 --- !u!1 &735443036
 GameObject:
   m_ObjectHideFlags: 0
@@ -126304,6 +126318,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 651356223204997802, guid: 30f1f85065ee7744d8118bea6fed1c0f, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2700221080125880297, guid: 30f1f85065ee7744d8118bea6fed1c0f, type: 3}
       propertyPath: m_LocalPosition.x
       value: -38.8
@@ -126343,6 +126361,14 @@ PrefabInstance:
     - target: {fileID: 2700221080125880297, guid: 30f1f85065ee7744d8118bea6fed1c0f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4166047023877800361, guid: 30f1f85065ee7744d8118bea6fed1c0f, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4386029589394021419, guid: 30f1f85065ee7744d8118bea6fed1c0f, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6216051878330826434, guid: 30f1f85065ee7744d8118bea6fed1c0f, type: 3}
       propertyPath: m_Name
