@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Ground
   - Bullet
+  - PlayerGame
+  - MonsterBlue
   layers:
   - Default
   - TransparentFX

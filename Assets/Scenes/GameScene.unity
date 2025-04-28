@@ -216,7 +216,7 @@ GameObject:
   - component: {fileID: 376455935}
   m_Layer: 0
   m_Name: Monster
-  m_TagString: Untagged
+  m_TagString: MonsterBlue
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3101,6 +3101,11 @@ TilemapCollider2D:
   m_MaximumTileChangeCount: 1000
   m_ExtrusionFactor: 0
   m_UseDelaunayMesh: 0
+--- !u!1 &851659444 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6216051878330826434, guid: 30f1f85065ee7744d8118bea6fed1c0f, type: 3}
+  m_PrefabInstance: {fileID: 909475974509709338}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &899359816
 GameObject:
   m_ObjectHideFlags: 0
@@ -126155,6 +126160,32 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2700221080125880297, guid: 30f1f85065ee7744d8118bea6fed1c0f, type: 3}
   m_PrefabInstance: {fileID: 909475974509709338}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1453195308
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 851659444}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0bde1a97a4f0042f38fbf86151360f05, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 10
+--- !u!114 &1453195309
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 851659444}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5100be5e86b2a4807ae8d013a0ed8cf6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 100
 --- !u!1 &1761693243
 GameObject:
   m_ObjectHideFlags: 0
@@ -126322,6 +126353,14 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1799712709187479092, guid: 30f1f85065ee7744d8118bea6fed1c0f, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2230314506558837581, guid: 30f1f85065ee7744d8118bea6fed1c0f, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2700221080125880297, guid: 30f1f85065ee7744d8118bea6fed1c0f, type: 3}
       propertyPath: m_LocalPosition.x
       value: -38.8
@@ -126374,10 +126413,24 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 6216051878330826434, guid: 30f1f85065ee7744d8118bea6fed1c0f, type: 3}
+      propertyPath: m_TagString
+      value: PlayerGame
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 0}
+    - {fileID: 5337255144771417014, guid: 30f1f85065ee7744d8118bea6fed1c0f, type: 3}
+    - {fileID: 1799712709187479092, guid: 30f1f85065ee7744d8118bea6fed1c0f, type: 3}
+    - {fileID: 2230314506558837581, guid: 30f1f85065ee7744d8118bea6fed1c0f, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6216051878330826434, guid: 30f1f85065ee7744d8118bea6fed1c0f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1453195309}
+    - targetCorrespondingSourceObject: {fileID: 6216051878330826434, guid: 30f1f85065ee7744d8118bea6fed1c0f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1453195308}
   m_SourcePrefab: {fileID: 100100000, guid: 30f1f85065ee7744d8118bea6fed1c0f, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:

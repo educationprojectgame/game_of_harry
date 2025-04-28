@@ -7,7 +7,6 @@ public class CollisionDamage : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D collision)
     {
         Health health = collision.gameObject.GetComponent<Health>();
-
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

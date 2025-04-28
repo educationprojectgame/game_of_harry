@@ -4,9 +4,10 @@ public class MonsterDialogue : MonoBehaviour
 {
     public DialogueBox dialogueBox;
     public KeyCode showDialogueKey = KeyCode.Space;
-    public string dialogueText = "Привет, мир!";
+    public string dialogueText = "пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅ!";
     public float activationDistance = 3f;
     public Transform player;
+    
     private bool dialogueIsVisible = false;
 
     void Start()
