@@ -1,0 +1,1625 @@
+fileFormatVersion: 2
+guid: 3b2adb41001376a44af51ea57d6e9134
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7376420133936937654
+    second: ROLEWORLD_WIZARD_FREE INTERIOR ASSET_0
+  - first:
+      213: 7773688081265183719
+    second: ROLEWORLD_WIZARD_FREE INTERIOR ASSET_1
+  - first:
+      213: -5777527521119862969
+    second: ROLEWORLD_WIZARD_FREE INTERIOR ASSET_2
+  - first:
+      213: 408247761723189625
+    second: ROLEWORLD_WIZARD_FREE INTERIOR ASSET_3
+  - first:
+      213: -6128649524558077552
+    second: ROLEWORLD_WIZARD_FREE INTERIOR ASSET_4
+  - first:
+      213: 2716101603945543696
+    second: ROLEWORLD_WIZARD_FREE INTERIOR ASSET_5
+  - first:
+      213: 519513140814277177
+    second: ROLEWORLD_WIZARD_FREE INTERIOR ASSET_6
+  - first:
+      213: 5609466964604985084
+    second: ROLEWORLD_WIZARD_FREE INTERIOR ASSET_7
+  - first:
+      213: 2620474367734717773
+    second: ROLEWORLD_WIZARD_FREE INTERIOR ASSET_8
+  - first:
+      213: 8483391636828019851
+    second: ROLEWORLD_WIZARD_FREE INTERIOR ASSET_9
+  - first:
+      213: 4538337470628277422
+    second: ROLEWORLD_WIZARD_FREE INTERIOR ASSET_10
+  - first:
+      213: 3653100477916807785
+    second: ROLEWORLD_WIZARD_FREE INTERIOR ASSET_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ROLEWORLD_WIZARD_FREE INTERIOR ASSET_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bab955a70f4e5660800000000000000
+      internalID: 7376420133936937654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROLEWORLD_WIZARD_FREE INTERIOR ASSET_1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ebcf768f10b1eb60800000000000000
+      internalID: 7773688081265183719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROLEWORLD_WIZARD_FREE INTERIOR ASSET_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74f7b97845912dfa0800000000000000
+      internalID: -5777527521119862969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROLEWORLD_WIZARD_FREE INTERIOR ASSET_3
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 979ebd12d236aa500800000000000000
+      internalID: 408247761723189625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROLEWORLD_WIZARD_FREE INTERIOR ASSET_4
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09169d77ab9a2faa0800000000000000
+      internalID: -6128649524558077552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROLEWORLD_WIZARD_FREE INTERIOR ASSET_5
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 018fa0da40881b520800000000000000
+      internalID: 2716101603945543696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROLEWORLD_WIZARD_FREE INTERIOR ASSET_6
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93ae166f27ea53700800000000000000
+      internalID: 519513140814277177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROLEWORLD_WIZARD_FREE INTERIOR ASSET_7
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfe919ceb74d8dd40800000000000000
+      internalID: 5609466964604985084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROLEWORLD_WIZARD_FREE INTERIOR ASSET_8
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4d18d7bd8bcd5420800000000000000
+      internalID: 2620474367734717773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROLEWORLD_WIZARD_FREE INTERIOR ASSET_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8c57ab2fbf0bb570800000000000000
+      internalID: 8483391636828019851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROLEWORLD_WIZARD_FREE INTERIOR ASSET_10
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eaca4a762e96bfe30800000000000000
+      internalID: 4538337470628277422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROLEWORLD_WIZARD_FREE INTERIOR ASSET_11
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9628a0b978b62b230800000000000000
+      internalID: 3653100477916807785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROLEWORLD_WIZARD_FREE INTERIOR ASSET_12
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5ea06e12fd13584cbaa6ab5664462ab
+      internalID: -1295488674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROLEWORLD_WIZARD_FREE INTERIOR ASSET_13
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97a57650fbe39754788cc48c8ec9c3a0
+      internalID: -1197635143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROLEWORLD_WIZARD_FREE INTERIOR ASSET_14
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65315e5f282089246ac1a6fe40af07c6
+      internalID: -1958434042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROLEWORLD_WIZARD_FREE INTERIOR ASSET_15
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11a741b2b4cb4de40949596a3216ed85
+      internalID: 1281198869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROLEWORLD_WIZARD_FREE INTERIOR ASSET_16
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bf89816db9bc9e48858f951a7ee7bbb
+      internalID: 1026618500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROLEWORLD_WIZARD_FREE INTERIOR ASSET_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 125c001ee0ff88544a66111a3c789dd4
+      internalID: 1506861252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROLEWORLD_WIZARD_FREE INTERIOR ASSET_18
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a24edc475d8322f43a8939227d69bc17
+      internalID: 1070187103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROLEWORLD_WIZARD_FREE INTERIOR ASSET_19
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d6cf79df58560940b06a964ab90ed61
+      internalID: 264717246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROLEWORLD_WIZARD_FREE INTERIOR ASSET_20
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3751c8f81bb4074408a96d95a6c56fa7
+      internalID: -866911940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROLEWORLD_WIZARD_FREE INTERIOR ASSET_21
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a148849181d029d48bd268c5b76249f4
+      internalID: -1370762935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROLEWORLD_WIZARD_FREE INTERIOR ASSET_22
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c392f7553d39974d8ef6a39e7996ca3
+      internalID: 2012566682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROLEWORLD_WIZARD_FREE INTERIOR ASSET_23
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 281087e0b3a71b247a2016798641b665
+      internalID: 42815210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROLEWORLD_WIZARD_FREE INTERIOR ASSET_24
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4c20b165866ba446ab0af6ef5dc7667
+      internalID: -445885626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROLEWORLD_WIZARD_FREE INTERIOR ASSET_25
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75c161407c7d3944e8f3e7d14355d5eb
+      internalID: 1048425278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROLEWORLD_WIZARD_FREE INTERIOR ASSET_26
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3e7c8bf06249114786b7c347548fa3c
+      internalID: 1833147614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROLEWORLD_WIZARD_FREE INTERIOR ASSET_27
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a3ece5632bab194cba1bf5e017fe437
+      internalID: 1340318927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROLEWORLD_WIZARD_FREE INTERIOR ASSET_28
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 441ab3e3fc8430f41b77ec1276340130
+      internalID: 1752271761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROLEWORLD_WIZARD_FREE INTERIOR ASSET_29
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 236096f4a9e870446a1cca2149652287
+      internalID: 162834538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROLEWORLD_WIZARD_FREE INTERIOR ASSET_30
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f23d21603908064f8163a88e6338a36
+      internalID: 317368756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROLEWORLD_WIZARD_FREE INTERIOR ASSET_31
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e430fc740ddc868489a38ed1cbe240ea
+      internalID: 876991042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROLEWORLD_WIZARD_FREE INTERIOR ASSET_32
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee58fc5cb52cb3f449d462f4885ab0a6
+      internalID: -1945284655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROLEWORLD_WIZARD_FREE INTERIOR ASSET_33
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebf7c992773a2e14b9c133c4641581d9
+      internalID: 37363848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROLEWORLD_WIZARD_FREE INTERIOR ASSET_34
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 902d4b5f3721b0447a7ae63a08964b53
+      internalID: 706487381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROLEWORLD_WIZARD_FREE INTERIOR ASSET_35
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c486ec4d3e869ef40acc3a2809cc32f5
+      internalID: 60379111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROLEWORLD_WIZARD_FREE INTERIOR ASSET_36
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a31e3ca2431fe864094420f440bd3743
+      internalID: -952189950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROLEWORLD_WIZARD_FREE INTERIOR ASSET_37
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d181746af0432a4b8b42b2ef58fbe9e
+      internalID: 272080652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROLEWORLD_WIZARD_FREE INTERIOR ASSET_38
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d03fbea4dcf3c804b9d1d8d3f25baa76
+      internalID: 1171282540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROLEWORLD_WIZARD_FREE INTERIOR ASSET_39
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d4310d5a8a10f74aaad33099b77defa
+      internalID: 1460208620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROLEWORLD_WIZARD_FREE INTERIOR ASSET_40
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6c36b4f4b5af844981259dd5606ad10
+      internalID: 1914712434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROLEWORLD_WIZARD_FREE INTERIOR ASSET_41
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e83d0035b4501a40bda3638618dddf9
+      internalID: 2057792385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROLEWORLD_WIZARD_FREE INTERIOR ASSET_42
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa0c2b1cfb3065545be83308d49ba050
+      internalID: -1885595384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROLEWORLD_WIZARD_FREE INTERIOR ASSET_43
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca37ed7b2152bb64bb739464f1477b30
+      internalID: -1418423530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROLEWORLD_WIZARD_FREE INTERIOR ASSET_44
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac86b064d63f76a468762d4fdcd272de
+      internalID: -2000150420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROLEWORLD_WIZARD_FREE INTERIOR ASSET_45
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7276ca8ce1737c48a3410031d387a14
+      internalID: 1190890388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROLEWORLD_WIZARD_FREE INTERIOR ASSET_46
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e92227fa16ee074fa4517590298ceca
+      internalID: -1850428241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROLEWORLD_WIZARD_FREE INTERIOR ASSET_47
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a997c9d0338ee7a4db15d62b00c6cf1d
+      internalID: 1236685328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROLEWORLD_WIZARD_FREE INTERIOR ASSET_48
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ca3a1469119478488f88784c989f13a
+      internalID: -1223294528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROLEWORLD_WIZARD_FREE INTERIOR ASSET_49
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66b0e147da76f3c4abc87c1f74d925bb
+      internalID: 1104715070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROLEWORLD_WIZARD_FREE INTERIOR ASSET_50
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 809362402d0e3964f8d9eb04058109b7
+      internalID: -2111672311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROLEWORLD_WIZARD_FREE INTERIOR ASSET_51
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3e2d5ab4049c91489a393282a3fb901
+      internalID: -697663220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROLEWORLD_WIZARD_FREE INTERIOR ASSET_52
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92bdd1372bac0bd4880296591d180f58
+      internalID: -859776762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROLEWORLD_WIZARD_FREE INTERIOR ASSET_53
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 519d053414a53344d82592f52cddd51e
+      internalID: -1617577413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROLEWORLD_WIZARD_FREE INTERIOR ASSET_54
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f72665b28ffff6f4797b3c1632bf5ce4
+      internalID: -1061143653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROLEWORLD_WIZARD_FREE INTERIOR ASSET_55
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 235c42314a9fa0d4aaa2f6cf3f320342
+      internalID: -1206256321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROLEWORLD_WIZARD_FREE INTERIOR ASSET_56
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcf12fa859d2c1548bcb0fd7f1f3bb91
+      internalID: -296164229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROLEWORLD_WIZARD_FREE INTERIOR ASSET_57
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b44ecea4777959b409308f4a30558449
+      internalID: -2125724501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROLEWORLD_WIZARD_FREE INTERIOR ASSET_58
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7712eb71bb32457428f916bc02576d7b
+      internalID: -2019989654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROLEWORLD_WIZARD_FREE INTERIOR ASSET_59
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f92a7783a741c0a4e9bd36240e5dbaa5
+      internalID: -197182161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROLEWORLD_WIZARD_FREE INTERIOR ASSET_60
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ee86b3058fcb5a46b591c38d1ec7796
+      internalID: 746174518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROLEWORLD_WIZARD_FREE INTERIOR ASSET_61
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe3cfc76aa03fec4c91e833fe7fd53f9
+      internalID: -2010638677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROLEWORLD_WIZARD_FREE INTERIOR ASSET_62
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 708f1cf879c76f74b947b721e84b7168
+      internalID: 267044245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROLEWORLD_WIZARD_FREE INTERIOR ASSET_63
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7852e86ed3fc6144b4a365cc4d67a3d
+      internalID: -1988916535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 94589490e47e5b34fae581b50eaa8cb9
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ROLEWORLD_WIZARD_FREE INTERIOR ASSET_0: 7376420133936937654
+      ROLEWORLD_WIZARD_FREE INTERIOR ASSET_1: 7773688081265183719
+      ROLEWORLD_WIZARD_FREE INTERIOR ASSET_10: 4538337470628277422
+      ROLEWORLD_WIZARD_FREE INTERIOR ASSET_11: 3653100477916807785
+      ROLEWORLD_WIZARD_FREE INTERIOR ASSET_12: -1295488674
+      ROLEWORLD_WIZARD_FREE INTERIOR ASSET_13: -1197635143
+      ROLEWORLD_WIZARD_FREE INTERIOR ASSET_14: -1958434042
+      ROLEWORLD_WIZARD_FREE INTERIOR ASSET_15: 1281198869
+      ROLEWORLD_WIZARD_FREE INTERIOR ASSET_16: 1026618500
+      ROLEWORLD_WIZARD_FREE INTERIOR ASSET_17: 1506861252
+      ROLEWORLD_WIZARD_FREE INTERIOR ASSET_18: 1070187103
+      ROLEWORLD_WIZARD_FREE INTERIOR ASSET_19: 264717246
+      ROLEWORLD_WIZARD_FREE INTERIOR ASSET_2: -5777527521119862969
+      ROLEWORLD_WIZARD_FREE INTERIOR ASSET_20: -866911940
+      ROLEWORLD_WIZARD_FREE INTERIOR ASSET_21: -1370762935
+      ROLEWORLD_WIZARD_FREE INTERIOR ASSET_22: 2012566682
+      ROLEWORLD_WIZARD_FREE INTERIOR ASSET_23: 42815210
+      ROLEWORLD_WIZARD_FREE INTERIOR ASSET_24: -445885626
+      ROLEWORLD_WIZARD_FREE INTERIOR ASSET_25: 1048425278
+      ROLEWORLD_WIZARD_FREE INTERIOR ASSET_26: 1833147614
+      ROLEWORLD_WIZARD_FREE INTERIOR ASSET_27: 1340318927
+      ROLEWORLD_WIZARD_FREE INTERIOR ASSET_28: 1752271761
+      ROLEWORLD_WIZARD_FREE INTERIOR ASSET_29: 162834538
+      ROLEWORLD_WIZARD_FREE INTERIOR ASSET_3: 408247761723189625
+      ROLEWORLD_WIZARD_FREE INTERIOR ASSET_30: 317368756
+      ROLEWORLD_WIZARD_FREE INTERIOR ASSET_31: 876991042
+      ROLEWORLD_WIZARD_FREE INTERIOR ASSET_32: -1945284655
+      ROLEWORLD_WIZARD_FREE INTERIOR ASSET_33: 37363848
+      ROLEWORLD_WIZARD_FREE INTERIOR ASSET_34: 706487381
+      ROLEWORLD_WIZARD_FREE INTERIOR ASSET_35: 60379111
+      ROLEWORLD_WIZARD_FREE INTERIOR ASSET_36: -952189950
+      ROLEWORLD_WIZARD_FREE INTERIOR ASSET_37: 272080652
+      ROLEWORLD_WIZARD_FREE INTERIOR ASSET_38: 1171282540
+      ROLEWORLD_WIZARD_FREE INTERIOR ASSET_39: 1460208620
+      ROLEWORLD_WIZARD_FREE INTERIOR ASSET_4: -6128649524558077552
+      ROLEWORLD_WIZARD_FREE INTERIOR ASSET_40: 1914712434
+      ROLEWORLD_WIZARD_FREE INTERIOR ASSET_41: 2057792385
+      ROLEWORLD_WIZARD_FREE INTERIOR ASSET_42: -1885595384
+      ROLEWORLD_WIZARD_FREE INTERIOR ASSET_43: -1418423530
+      ROLEWORLD_WIZARD_FREE INTERIOR ASSET_44: -2000150420
+      ROLEWORLD_WIZARD_FREE INTERIOR ASSET_45: 1190890388
+      ROLEWORLD_WIZARD_FREE INTERIOR ASSET_46: -1850428241
+      ROLEWORLD_WIZARD_FREE INTERIOR ASSET_47: 1236685328
+      ROLEWORLD_WIZARD_FREE INTERIOR ASSET_48: -1223294528
+      ROLEWORLD_WIZARD_FREE INTERIOR ASSET_49: 1104715070
+      ROLEWORLD_WIZARD_FREE INTERIOR ASSET_5: 2716101603945543696
+      ROLEWORLD_WIZARD_FREE INTERIOR ASSET_50: -2111672311
+      ROLEWORLD_WIZARD_FREE INTERIOR ASSET_51: -697663220
+      ROLEWORLD_WIZARD_FREE INTERIOR ASSET_52: -859776762
+      ROLEWORLD_WIZARD_FREE INTERIOR ASSET_53: -1617577413
+      ROLEWORLD_WIZARD_FREE INTERIOR ASSET_54: -1061143653
+      ROLEWORLD_WIZARD_FREE INTERIOR ASSET_55: -1206256321
+      ROLEWORLD_WIZARD_FREE INTERIOR ASSET_56: -296164229
+      ROLEWORLD_WIZARD_FREE INTERIOR ASSET_57: -2125724501
+      ROLEWORLD_WIZARD_FREE INTERIOR ASSET_58: -2019989654
+      ROLEWORLD_WIZARD_FREE INTERIOR ASSET_59: -197182161
+      ROLEWORLD_WIZARD_FREE INTERIOR ASSET_6: 519513140814277177
+      ROLEWORLD_WIZARD_FREE INTERIOR ASSET_60: 746174518
+      ROLEWORLD_WIZARD_FREE INTERIOR ASSET_61: -2010638677
+      ROLEWORLD_WIZARD_FREE INTERIOR ASSET_62: 267044245
+      ROLEWORLD_WIZARD_FREE INTERIOR ASSET_63: -1988916535
+      ROLEWORLD_WIZARD_FREE INTERIOR ASSET_7: 5609466964604985084
+      ROLEWORLD_WIZARD_FREE INTERIOR ASSET_8: 2620474367734717773
+      ROLEWORLD_WIZARD_FREE INTERIOR ASSET_9: 8483391636828019851
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
