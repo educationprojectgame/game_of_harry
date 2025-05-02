@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 public class PLayer : MonoBehaviour
 {
-    
+
     [SerializeField] float speed;
     [SerializeField] GameObject bullet;
     [SerializeField] Transform shootPos;
@@ -16,17 +16,30 @@ public class PLayer : MonoBehaviour
     public Rigidbody2D rb;
 
 
-    
-    
+
+
 
 
     // Update is called once per frame
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-   
 
+        var spawnPointName = PlayerPrefs.GetString("SpawnPoint");
+        if (!string.IsNullOrEmpty(spawnPointName))
+        {
+            var spawnPoint = GameObject.Find(spawnPointName);
+            Debug.Log($"Сохраняем позицию: {spawnPointName}"); // Логируем
+
+            if (spawnPoint != null)
+            {
+
+                transform.position = spawnPoint.transform.position;
+            }
+            PlayerPrefs.DeleteKey("SpawnPoint");
+        }
     }
+
 
     private void FixedUpdate()
     {
@@ -55,10 +68,10 @@ public class PLayer : MonoBehaviour
 
 
     void Shoot()
-    { 
+    {
         Instantiate(bullet, shootPos.position, shootPos.rotation);
     }
-    
+
 
 
 }
