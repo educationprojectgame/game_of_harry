@@ -15,7 +15,11 @@ public class MonsterDialogue : MonoBehaviour
         if (player == null)
         {
             GameObject playerObject = GameObject.FindGameObjectWithTag("Player");
-            if (playerObject != null) player = playerObject.transform;
+            if (playerObject != null)
+            {
+                player = playerObject.transform;
+            }
+                
             else
             {
                 Debug.LogWarning("Player not assigned and no GameObject with tag 'Player' found!  " +
