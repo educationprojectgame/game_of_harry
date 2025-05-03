@@ -7,7 +7,7 @@ public class SpriteSorter : MonoBehaviour
     private bool isStatic = false;
     public float offset = 0;
     private int SortingOrderBase = 0;
-    private Renderer renderer;
+    private Renderer renderer = new Renderer();
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     private void Awake()
     {
