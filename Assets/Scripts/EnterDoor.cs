@@ -13,7 +13,7 @@ public class EnterDoor : MonoBehaviour
         if (collision.GetComponent<BlueDoor>())
         {
             PlayerPrefs.SetString("SpawnPoint", "BrownDoor");
-            sceneToLoad = "Библиотека";
+            sceneToLoad = "Library";
             enterAllowed = true;
         }
         else if (collision.GetComponent<BrownDoor>())
