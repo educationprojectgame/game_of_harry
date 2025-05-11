@@ -1,5 +1,7 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+
 
 public class HealthPlayer : MonoBehaviour
 {
@@ -20,5 +22,17 @@ public class HealthPlayer : MonoBehaviour
     public void Die()
     {
         Destroy(gameObject);
+
+        var checkPointName = PlayerPrefs.GetString("CheckPoint");
+        if (!string.IsNullOrEmpty(checkPointName))
+        {
+            var checkPointScene = PlayerPrefs.GetString("CheckPointScene");
+            SceneManager.LoadScene(checkPointScene);
+
+            var checkPoint = GameObject.Find(checkPointName);
+            transform.position = checkPoint.transform.position;
+            PlayerPrefs.DeleteKey("CheckPoint");
+        }
+        SceneManager.LoadScene("Menu");
     }
 }

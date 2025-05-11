@@ -29,7 +29,6 @@ public class PLayer : MonoBehaviour
         if (!string.IsNullOrEmpty(spawnPointName))
         {
             var spawnPoint = GameObject.Find(spawnPointName);
-            Debug.Log($"Сохраняем позицию: {spawnPointName}"); // Логируем
 
             if (spawnPoint != null)
             {
