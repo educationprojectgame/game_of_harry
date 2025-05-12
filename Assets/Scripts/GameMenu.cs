@@ -5,6 +5,8 @@ public class MainMenu : MonoBehaviour
 {
     public void PlayGame()
     {
+        PlayerPrefs.DeleteAll();
+        PlayerPrefs.Save();
         // Заменить "GameScene" на точное имя твоей сцены
         SceneManager.LoadScene("GameScene");
     }

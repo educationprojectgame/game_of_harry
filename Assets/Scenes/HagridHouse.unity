@@ -176,7 +176,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 4889279393509260244, guid: 167166e5739fa1a4da38f115f2c34d3f, type: 3}
+  m_Sprite: {fileID: -7546662941478835431, guid: ad103f7a663422d409e62bbd222c7c1d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -19698,7 +19698,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   toggleKey: 9
   targetImage: {fileID: 667967949}
-  imagePath: testt
+  imagePath: Education
 --- !u!1 &2075958673
 GameObject:
   m_ObjectHideFlags: 0

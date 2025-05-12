@@ -21,18 +21,17 @@ public class HealthPlayer : MonoBehaviour
 
     public void Die()
     {
+        string checkPointScene = PlayerPrefs.GetString("CheckPointScene");
+
         Destroy(gameObject);
 
-        var checkPointName = PlayerPrefs.GetString("CheckPoint");
-        if (!string.IsNullOrEmpty(checkPointName))
+        if (!string.IsNullOrEmpty(checkPointScene))
         {
-            var checkPointScene = PlayerPrefs.GetString("CheckPointScene");
             SceneManager.LoadScene(checkPointScene);
-
-            var checkPoint = GameObject.Find(checkPointName);
-            transform.position = checkPoint.transform.position;
-            PlayerPrefs.DeleteKey("CheckPoint");
         }
-        SceneManager.LoadScene("Menu");
+        else
+        {
+            SceneManager.LoadScene("Menu");
+        }
     }
 }

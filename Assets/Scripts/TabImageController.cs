@@ -5,7 +5,7 @@ public class TabImageController : MonoBehaviour
 {
     public KeyCode toggleKey = KeyCode.Tab; // Клавиша для управления
     public Image targetImage; // Ссылка на компонент Image
-    public string imagePath = "testt"; // Путь к изображению в Resources (без расширения)
+    public string imagePath = "Education"; // Путь к изображению в Resources (без расширения)
 
     void Start()
     {
