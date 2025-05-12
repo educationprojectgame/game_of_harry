@@ -6,22 +6,39 @@ using UnityEngine.SceneManagement;
 public class EnterDoor : MonoBehaviour
 {
     private bool enterAllowed;
+    private string spawnTarget;
+    private string checkPointTarget;
     private string sceneToLoad;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.GetComponent<BlueDoor>())
         {
-            PlayerPrefs.SetString("SpawnPoint", "BrownDoor");
+            spawnTarget = "BrownDoor";
+            checkPointTarget = "BrownDoor";
             sceneToLoad = "Library";
-            enterAllowed = true;
         }
         else if (collision.GetComponent<BrownDoor>())
         {
-            PlayerPrefs.SetString("SpawnPoint", "BlueDoor");
+            spawnTarget = "BlueDoor";
             sceneToLoad = "GameScene";
-            enterAllowed = true;
         }
+        else if (collision.GetComponent<DoorToHagrid>())
+        {
+            spawnTarget = "HagridHouseDoor";
+            checkPointTarget = "HagridHouseDoor";
+            sceneToLoad = "HagridHouse";
+        }
+        else if (collision.GetComponent<HagridHouseDoor>())
+        {
+            spawnTarget = "DoorToHagrid";
+            sceneToLoad = "Library";
+        }
+
+        PlayerPrefs.SetString("SpawnPoint", spawnTarget);
+        PlayerPrefs.SetString("CheckPoint", checkPointTarget);
+        PlayerPrefs.SetString("CheckPointScene", sceneToLoad);
+        enterAllowed = true;
     }
 
     private void OnTriggerExit2D(Collider2D collision)
