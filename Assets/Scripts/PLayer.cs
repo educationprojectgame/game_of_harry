@@ -1,5 +1,6 @@
 using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
 
 public class Player : MonoBehaviour
 {
@@ -8,6 +9,7 @@ public class Player : MonoBehaviour
     [SerializeField] private float dashDistance = 55f;
     [SerializeField] private float dashDuration = 0.5f;
     [SerializeField] private float dashCooldown = 1f;
+    [SerializeField] private float manna = 100;
 
     [Header("References")]
     [SerializeField] private Rigidbody2D rb;
@@ -15,9 +17,14 @@ public class Player : MonoBehaviour
     [SerializeField] private GameObject bullet;
     [SerializeField] private Transform shootPos;
     
+    public Image BarManna;
+
     private Vector2 moveInput;
     private bool isDashing;
     private float dashCooldownTimer;
+
+
+    
 
     private void Start()
     {
@@ -44,16 +51,30 @@ public class Player : MonoBehaviour
 
     private void Update()
     {
+        
+
         // Получаем ввод
         moveInput = new Vector2(
             Input.GetAxisRaw("Horizontal"),
             Input.GetAxisRaw("Vertical")
         ).normalized;
 
+        BarManna.fillAmount = manna / 100;
+
         // Обработка выстрела
         if (Input.GetMouseButtonDown(0))
         {
             Shoot();
+        }
+
+        if (manna < 100)
+        {
+            manna += 0.1f; 
+        }
+
+        if (manna < 0)
+        {
+            manna = 0; 
         }
 
         // Активация рывка
@@ -109,6 +130,10 @@ public class Player : MonoBehaviour
 
     private void Shoot()
     {
-        Instantiate(bullet, shootPos.position, shootPos.rotation);
+        manna -= 10;
+        
+        if (manna > 0)
+            Instantiate(bullet, shootPos.position, shootPos.rotation);
+        
     }
 }
