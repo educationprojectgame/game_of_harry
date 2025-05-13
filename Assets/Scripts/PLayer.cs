@@ -77,6 +77,11 @@ public class Player : MonoBehaviour
             manna = 0; 
         }
 
+        if (manna > 100)
+        {
+            manna = 100; 
+        }
+
         // Активация рывка
         if (Input.GetKeyDown(KeyCode.LeftShift) && CanDash())
         {
