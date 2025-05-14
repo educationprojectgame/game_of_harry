@@ -135,6 +135,11 @@ public class Player : MonoBehaviour
 
     private void Shoot()
     {
+        if (shootPos == null)
+        {
+            Debug.LogWarning("Позиция стрельбы (shootPos) была уничтожена или не назначена!");
+            return;
+        }
         manna -= 10;
         
         if (manna > 0)
