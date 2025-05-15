@@ -34,6 +34,28 @@ public class EnterDoor : MonoBehaviour
             spawnTarget = "DoorToHagrid";
             sceneToLoad = "Library";
         }
+        else if (collision.GetComponent<DoorToMonster>())
+        {
+            spawnTarget = "DoorBackFromMonster";
+            checkPointTarget = "DoorBackFromMonster";
+            sceneToLoad = "BossHouse";
+        }
+        else if (collision.GetComponent<DoorBackFromMonster>())
+        {
+            spawnTarget = "DoorToMonster";
+            sceneToLoad = "HagridHouse";
+        }
+        else if (collision.GetComponent<LadderToStone>())
+        {
+            spawnTarget = "LadderFromStone";
+            sceneToLoad = "StoneRoom";
+        }
+        else if (collision.GetComponent<LadderFromStone>())
+        {
+            spawnTarget = "LadderToStone";
+            sceneToLoad = "BossHouse";
+        }
+
 
         PlayerPrefs.SetString("SpawnPoint", spawnTarget);
         PlayerPrefs.SetString("CheckPoint", checkPointTarget);

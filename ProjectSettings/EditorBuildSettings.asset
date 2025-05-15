@@ -17,6 +17,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/HagridHouse.unity
     guid: da64082bc42928f40beaac5644cb13e2
+  - enabled: 1
+    path: Assets/Scenes/BossHouse.unity
+    guid: 67d9f6a935c76874d997853e83274a5c
+  - enabled: 1
+    path: Assets/Scenes/StoneRoom.unity
+    guid: 5837a264839f11545a56170019618e8b
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
