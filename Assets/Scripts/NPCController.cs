@@ -58,7 +58,7 @@ public class NPCController : MonoBehaviour
         }
     }
 
-    void StartDialogue()
+    public void StartDialogue()
     {
         if (dialogueBoxPrefab != null && dialogueCanvas != null)
         {
