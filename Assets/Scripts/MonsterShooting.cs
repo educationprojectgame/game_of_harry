@@ -4,8 +4,9 @@ public class MonsterShootingAI : MonoBehaviour
 {
     public Transform playerTransform;     // Ссылка на Transform игрока
     public GameObject projectilePrefab;   // Префаб нашего снаряда
+
     public Transform firePoint;           // Точка, откуда будут вылетать снаряды (пустой объект-потомок монстра)
-    public float fireRate = 1f;           // Количество выстрелов в секунду
+    public float fireRate = 0.5f;           // Количество выстрелов в секунду
     public float shootingRange = 10f;     // Дальность стрельбы
     public float projectileSpeed = 10f;   // Скорость снаряда (если вы хотите ее задавать отсюда)
     public float detectionHeightDifference = 1f; // Минимальная разница по высоте, чтобы считать, что игрок "снизу"

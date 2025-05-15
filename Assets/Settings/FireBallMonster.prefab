@@ -168,3 +168,4 @@ MonoBehaviour:
   speed: 10
   lifetime: 3
   damage: 10
+  hitEffectPrefab: {fileID: 2413019994199038332, guid: 594051a3564f7413a94e288c75f28a88, type: 3}
