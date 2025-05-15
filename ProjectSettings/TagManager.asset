@@ -9,6 +9,7 @@ TagManager:
   - PlayerGame
   - MonsterBlue
   - trees
+  - micropenis
   layers:
   - Default
   - TransparentFX
