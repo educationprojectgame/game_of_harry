@@ -6,14 +6,14 @@ using UnityEngine.UI;
 public class HealthPlayer : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    public float maxHealth = 100f;
+    public float HealthPlay = 100f;
     public Image Bar;
 
     public void TakeDamage(int damage)
     {
-        maxHealth -= damage;
-        Bar.fillAmount = maxHealth / 100;
-        if (maxHealth <= 0)
+        HealthPlay -= damage;
+        Bar.fillAmount = HealthPlay / 100;
+        if (HealthPlay <= 0)
         {
             Die();
         }
