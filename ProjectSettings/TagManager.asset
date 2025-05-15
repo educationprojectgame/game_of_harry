@@ -8,6 +8,8 @@ TagManager:
   - Bullet
   - PlayerGame
   - MonsterBlue
+  - trees
+  - micropenis
   layers:
   - Default
   - TransparentFX

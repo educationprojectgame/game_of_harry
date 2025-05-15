@@ -10,7 +10,7 @@ public class MonsterGetGamageInPlayerInvVcity : MonoBehaviour
     {
         HealthPlayer health = collision.gameObject.GetComponent<HealthPlayer>();
 
-        if (collision.gameObject.CompareTag("MonsterBlue"))
+        if (collision.gameObject.CompareTag("MonsterBlue") || collision.gameObject.CompareTag("micropenis"))
         {
             HealthPlayer healthone = GetComponent<HealthPlayer>(); // получаем своё здоровье
             if (healthone != null)
