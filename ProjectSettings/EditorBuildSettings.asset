@@ -9,17 +9,17 @@ EditorBuildSettings:
     path: Assets/Scenes/GameScene.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
   - enabled: 1
-    path: Assets/Scenes/Menu.unity
-    guid: 201f773dff3954c6d825dba00cf9ad56
-  - enabled: 1
     path: Assets/Scenes/Library.unity
     guid: 3e259906757153f438871a5682f97bda
   - enabled: 1
-    path: Assets/Scenes/HagridHouse.unity
+    path: Assets/Scenes/Castle.unity
     guid: da64082bc42928f40beaac5644cb13e2
   - enabled: 1
     path: Assets/Scenes/BossHouse.unity
     guid: 67d9f6a935c76874d997853e83274a5c
+  - enabled: 1
+    path: Assets/Scenes/House.unity
+    guid: 53b41d85b34c94c46bd9fa41d2bbba21
   - enabled: 1
     path: Assets/Scenes/StoneRoom.unity
     guid: 5837a264839f11545a56170019618e8b

@@ -27,7 +27,7 @@ public class EnterDoor : MonoBehaviour
         {
             spawnTarget = "HagridHouseDoor";
             checkPointTarget = "HagridHouseDoor";
-            sceneToLoad = "HagridHouse";
+            sceneToLoad = "Castle";
         }
         else if (collision.GetComponent<HagridHouseDoor>())
         {
@@ -43,7 +43,7 @@ public class EnterDoor : MonoBehaviour
         else if (collision.GetComponent<DoorBackFromMonster>())
         {
             spawnTarget = "DoorToMonster";
-            sceneToLoad = "HagridHouse";
+            sceneToLoad = "Castle";
         }
         else if (collision.GetComponent<LadderToStone>())
         {

@@ -8,7 +8,7 @@ public class MainMenu : MonoBehaviour
         PlayerPrefs.DeleteAll();
         PlayerPrefs.Save();
         // Заменить "GameScene" на точное имя твоей сцены
-        SceneManager.LoadScene("GameScene");
+        SceneManager.LoadScene("House");
     }
 
     public void ExitGame()

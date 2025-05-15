@@ -29,7 +29,7 @@ public class MoveUpOnEKey : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.E))
         {
             eKeyPressCount++;
-            if (eKeyPressCount >= activationThreshold)
+            if (eKeyPressCount == activationThreshold)
             {
                 StartMovingUp();
             }
