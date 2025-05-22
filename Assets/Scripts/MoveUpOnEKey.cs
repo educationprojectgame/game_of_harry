@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class MoveUpOnEKey : MonoBehaviour
 {
@@ -47,6 +48,8 @@ public class MoveUpOnEKey : MonoBehaviour
             if (distanceMoved >= moveDistance)
             {
                 StopMovingUp();
+                SceneManager.LoadScene("GameScene");
+                PlayerPrefs.SetString("SpawnPoint", "BlueDoor");
             }
         }
     }

@@ -12,18 +12,12 @@ public class EnterDoor : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.GetComponent<BlueDoor>())
-        {
-            spawnTarget = "BrownDoor";
-            checkPointTarget = "BrownDoor";
-            sceneToLoad = "Library";
-        }
-        else if (collision.GetComponent<BrownDoor>())
+        if (collision.GetComponent<BrownDoor>())
         {
             spawnTarget = "BlueDoor";
             sceneToLoad = "GameScene";
         }
-        else if (collision.GetComponent<DoorToHagrid>())
+        else if (collision.GetComponent<DoorToCastle>())
         {
             spawnTarget = "HagridHouseDoor";
             checkPointTarget = "HagridHouseDoor";
@@ -31,8 +25,8 @@ public class EnterDoor : MonoBehaviour
         }
         else if (collision.GetComponent<HagridHouseDoor>())
         {
-            spawnTarget = "DoorToHagrid";
-            sceneToLoad = "Library";
+            spawnTarget = "DoorToCastle";
+            sceneToLoad = "GameScene";
         }
         else if (collision.GetComponent<DoorToMonster>())
         {
@@ -73,7 +67,7 @@ public class EnterDoor : MonoBehaviour
 
     private void Update()
     {
-        if (enterAllowed && Input.GetKey(KeyCode.Return))
+        if (enterAllowed && Input.GetKey(KeyCode.Return) && sceneToLoad != null)
         {
             SceneManager.LoadScene(sceneToLoad);
         }
