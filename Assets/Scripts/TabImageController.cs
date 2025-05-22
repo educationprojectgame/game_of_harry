@@ -16,7 +16,14 @@ public class TabImageController : MonoBehaviour
         if (newSprite != null && targetImage != null)
         {
             targetImage.sprite = newSprite; // Устанавливаем спрайт в компонент Image
-            targetImage.enabled = true; // Открываем изображение при старте
+            if (PlayerPrefs.GetInt("ShowTab") == 1)
+            {
+                targetImage.enabled = true; // Открываем изображение при старте
+                PlayerPrefs.SetInt("ShowTab", 0);
+            }
+
+            else
+                targetImage.enabled = false;
         }
         else
         {

@@ -6,10 +6,10 @@ public class Player : MonoBehaviour
 {
     [Header("Movement")]
     [SerializeField] private float speed = 5f;
+    [SerializeField] private float manna = 100f;
     [SerializeField] private float dashDistance = 5f;
     [SerializeField] private float dashDuration = 0.5f;
     [SerializeField] private float dashCooldown = 1f;
-    [SerializeField] private float manna = 100;
 
     [Header("References")]
     [SerializeField] private Rigidbody2D rb;
@@ -28,6 +28,12 @@ public class Player : MonoBehaviour
 
     private void Start()
     {
+        if (PlayerPrefs.GetFloat("Speed") != 0)
+        {
+            speed = PlayerPrefs.GetFloat("Speed");
+            manna = PlayerPrefs.GetFloat("Mana");
+        }
+
         rb = GetComponent<Rigidbody2D>();
         var spawnPointName = PlayerPrefs.GetString("SpawnPoint");
         if (!string.IsNullOrEmpty(spawnPointName))
@@ -145,5 +151,15 @@ public class Player : MonoBehaviour
         if (manna > 0)
             Instantiate(bullet, shootPos.position, shootPos.rotation);
         
+    }
+
+    public void IncreaseMana(float manaValue)
+    {
+        manna += manaValue;
+    }
+
+    public void IncreaseSpeed(float speedValue)
+    {
+        speed += speedValue;
     }
 }
