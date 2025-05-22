@@ -117,7 +117,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: -6.981, y: 3.198}
+  m_AnchoredPosition: {x: -12.33, y: 6.23}
   m_SizeDelta: {x: 3.7987, y: 3.4973}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!223 &4700670296441672057
@@ -1163,7 +1163,7 @@ Camera:
   far clip plane: 1000
   field of view: 34
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 8
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -1399,7 +1399,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &6218250608869756591
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1417,8 +1417,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: -0.09, y: -0.14}
-  m_SizeDelta: {x: 17.768, y: 10.0178}
+  m_AnchoredPosition: {x: 0.0212, y: -0.0659}
+  m_SizeDelta: {x: 28.516, y: 16.0959}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!223 &2427870547849961525
 Canvas:
@@ -1517,8 +1517,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.1104, y: -0.0883}
-  m_SizeDelta: {x: 17.9889, y: 10.1947}
+  m_AnchoredPosition: {x: -0.000050068, y: 0.000025988}
+  m_SizeDelta: {x: 28.516, y: 16.096}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &9051425436935102562
 CanvasRenderer:

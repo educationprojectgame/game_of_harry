@@ -3523,7 +3523,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   interactionDistance: 4
-  dialogueBoxPrefab: {fileID: 8316737730571024803, guid: 7211dfaacd14c1b45ad396dabb2b2613, type: 3}
+  dialogueBoxPrefab: {fileID: 7605365683698703815, guid: 43d6cfad3e3d6654fbb0e26e54219bd8, type: 3}
   playerTransform: {fileID: 368496544}
   dialogueCanvas: {fileID: 1924938475}
   dialogueLines:
@@ -4463,8 +4463,8 @@ Camera:
   m_GameObject: {fileID: 1021580744}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -4489,7 +4489,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 6
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -5246,8 +5246,8 @@ Transform:
   m_GameObject: {fileID: 1505338933}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -0.091838, y: 0, z: 0}
+  m_LocalScale: {x: 1.1836759, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 356756352}
