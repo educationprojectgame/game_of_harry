@@ -79,7 +79,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 5
+  m_SortingOrder: 7
   m_Sprite: {fileID: -5873656833128378101, guid: b8c9150cbdbdde64e93c5d96c09bfd76, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -185,4 +185,4 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   closeEnoughDistance: 0.1
-  player: {fileID: 0}
+  player: {fileID: 5820935884478925424, guid: 175688b78566c4ac3ab6a27a328528b8, type: 3}

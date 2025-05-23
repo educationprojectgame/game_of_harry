@@ -25,7 +25,7 @@ public class Health : MonoBehaviour
         {
             GameStateManager.Instance.monsterDead = true; // регистрируем смерть
         }
-        
+
         Destroy(gameObject);
     }
 }

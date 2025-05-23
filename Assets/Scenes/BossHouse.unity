@@ -2893,6 +2893,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -6648098961136482407, guid: 28f6b5f88eb9a4114b11b324a07fba15, type: 3}
+      propertyPath: spawnPoint
+      value: 
+      objectReference: {fileID: 1455127287}
+    - target: {fileID: 627050503675252930, guid: 28f6b5f88eb9a4114b11b324a07fba15, type: 3}
+      propertyPath: isMonster
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 627050503675252930, guid: 28f6b5f88eb9a4114b11b324a07fba15, type: 3}
       propertyPath: maxHealth
       value: 1000
@@ -9528,6 +9536,11 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!4 &1455127287 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5114150728573996279, guid: 238b2bd32f3ce48c4863a52aff766029, type: 3}
+  m_PrefabInstance: {fileID: 6556437490486172215}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1678541187
 GameObject:
   m_ObjectHideFlags: 0
