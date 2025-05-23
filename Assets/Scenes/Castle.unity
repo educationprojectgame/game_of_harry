@@ -29361,10 +29361,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   npcTransform: {fileID: 1081688480}
-  promptText: {fileID: 0}
+  promptText: {fileID: 1503946715}
   offsetY: 2
   showDistance: 1.5
-  playerTransform: {fileID: 0}
+  playerTransform: {fileID: 1893111031}
 --- !u!61 &1081688478
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -29808,10 +29808,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   npcTransform: {fileID: 1175261350}
-  promptText: {fileID: 0}
+  promptText: {fileID: 1503946715}
   offsetY: 2
   showDistance: 1.5
-  playerTransform: {fileID: 0}
+  playerTransform: {fileID: 1893111031}
 --- !u!61 &1175261348
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -33436,6 +33436,17 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!114 &1503946715 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 771458980026849266, guid: 175688b78566c4ac3ab6a27a328528b8, type: 3}
+  m_PrefabInstance: {fileID: 1610045676}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1518138953
 GameObject:
   m_ObjectHideFlags: 0
@@ -34849,6 +34860,11 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!4 &1893111031 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5820935884478925424, guid: 175688b78566c4ac3ab6a27a328528b8, type: 3}
+  m_PrefabInstance: {fileID: 1610045676}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1896800921
 GameObject:
   m_ObjectHideFlags: 0
