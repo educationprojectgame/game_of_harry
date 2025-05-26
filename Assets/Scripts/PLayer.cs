@@ -7,8 +7,8 @@ public class Player : MonoBehaviour
     [Header("Movement")]
     [SerializeField] private float speed = 5f;
     [SerializeField] private float manna = 100f;
-    [SerializeField] private float dashDistance = 5f;
-    [SerializeField] private float dashDuration = 0.5f;
+    [SerializeField] private float dashDistance = 7f;
+    [SerializeField] private float dashDuration = 0.1f;
     [SerializeField] private float dashCooldown = 1f;
 
     [Header("References")]
