@@ -1,0 +1,228 @@
+fileFormatVersion: 2
+guid: d8feb4c9bb9624c45a0a13eedf49b683
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6167043424206509045
+    second: Grassland Tileset1_0
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Grassland Tileset1_3
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 73
+        width: 72
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8072ac84d2332bb409b61a1adaefd642
+      internalID: -1990096272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grassland Tileset1_6
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 26
+        width: 24
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15d6f21fe7241264bac993f1e9542cc1
+      internalID: -1881376990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grassland Tileset1_30
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 0
+        width: 72
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dd921afc294e7a42a68497277439007
+      internalID: 1410125230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 87662779701edbb4e810a3040cda20a9
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Grassland Tileset1_0: -6167043424206509045
+      Grassland Tileset1_1: -525791956
+      Grassland Tileset1_10: -1163319945
+      Grassland Tileset1_11: 1793688449
+      Grassland Tileset1_12: 1864357192
+      Grassland Tileset1_13: -1557393284
+      Grassland Tileset1_14: 1680891572
+      Grassland Tileset1_15: -1785725794
+      Grassland Tileset1_16: -1667925811
+      Grassland Tileset1_17: -31268269
+      Grassland Tileset1_18: 908783199
+      Grassland Tileset1_19: -2096762396
+      Grassland Tileset1_2: 908121023
+      Grassland Tileset1_20: 254526109
+      Grassland Tileset1_21: 1991411701
+      Grassland Tileset1_22: 1665099669
+      Grassland Tileset1_23: -1389482917
+      Grassland Tileset1_24: 394405863
+      Grassland Tileset1_25: -2110504281
+      Grassland Tileset1_26: -699707021
+      Grassland Tileset1_27: 606729330
+      Grassland Tileset1_28: -1526799686
+      Grassland Tileset1_29: 676266318
+      Grassland Tileset1_3: -1990096272
+      Grassland Tileset1_30: 1410125230
+      Grassland Tileset1_31: -1141338924
+      Grassland Tileset1_32: -193491268
+      Grassland Tileset1_33: 2079282362
+      Grassland Tileset1_34: -1832236895
+      Grassland Tileset1_35: -521826696
+      Grassland Tileset1_36: -1692969015
+      Grassland Tileset1_37: 707195788
+      Grassland Tileset1_38: 1297462033
+      Grassland Tileset1_39: 1173196938
+      Grassland Tileset1_4: 1612816434
+      Grassland Tileset1_40: 81653599
+      Grassland Tileset1_41: 1944165831
+      Grassland Tileset1_5: -2045766803
+      Grassland Tileset1_6: -1881376990
+      Grassland Tileset1_7: -2040604820
+      Grassland Tileset1_8: -1793593321
+      Grassland Tileset1_9: -640598057
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
