@@ -3508,7 +3508,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 2
-  distance: 5
+  distance: 7
   npcController: {fileID: 431779063}
 --- !u!114 &431779063
 MonoBehaviour:
@@ -3522,8 +3522,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7584ece9ca4a9324fa87446baeded437, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  interactionDistance: 4
-  dialogueBoxPrefab: {fileID: 8316737730571024803, guid: 7211dfaacd14c1b45ad396dabb2b2613, type: 3}
+  interactionDistance: 2
+  dialogueBoxPrefab: {fileID: 997706965138183143, guid: 9cae85732629d544e81a03168c85e71a, type: 3}
   playerTransform: {fileID: 368496544}
   dialogueCanvas: {fileID: 1924938475}
   dialogueLines:
@@ -3676,7 +3676,7 @@ Transform:
   m_GameObject: {fileID: 431779061}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.46, y: -0.32, z: 0}
+  m_LocalPosition: {x: -7.69, y: -0.32, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4438,7 +4438,6 @@ GameObject:
   - component: {fileID: 737645315}
   - component: {fileID: 737645314}
   - component: {fileID: 737645313}
-  - component: {fileID: 737645312}
   - component: {fileID: 737645311}
   m_Layer: 0
   m_Name: BrownDoor
@@ -4459,23 +4458,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 56aa962de9f9ca042aa3095962ce0fa5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &737645312
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 737645310}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5677111d2f51fd541b7a68fd191f5d6b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  npcTransform: {fileID: 737645315}
-  promptText: {fileID: 0}
-  offsetY: 2
-  showDistance: 1.5
-  playerTransform: {fileID: 0}
 --- !u!61 &737645313
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4628,8 +4610,8 @@ Camera:
   m_GameObject: {fileID: 1021580744}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -4654,7 +4636,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 6
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -4679,7 +4661,7 @@ Transform:
   m_GameObject: {fileID: 1021580744}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalPosition: {x: -0.08, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5246,8 +5228,8 @@ Transform:
   m_GameObject: {fileID: 1505338933}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -0.0875, y: 0, z: 0}
+  m_LocalScale: {x: 1.175, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 356756352}
