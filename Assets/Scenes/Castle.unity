@@ -34049,10 +34049,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   npcTransform: {fileID: 1270741898}
-  promptText: {fileID: 0}
+  promptText: {fileID: 1716015619}
   offsetY: 2
   showDistance: 1.5
-  playerTransform: {fileID: 0}
+  playerTransform: {fileID: 225975603}
 --- !u!61 &1270741896
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -34896,10 +34896,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   npcTransform: {fileID: 1349187922}
-  promptText: {fileID: 0}
+  promptText: {fileID: 1716015619}
   offsetY: 2
   showDistance: 1.5
-  playerTransform: {fileID: 0}
+  playerTransform: {fileID: 225975603}
 --- !u!61 &1349187920
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -37881,6 +37881,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 175688b78566c4ac3ab6a27a328528b8, type: 3}
+--- !u!114 &1716015619 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 177962480031285571, guid: 175688b78566c4ac3ab6a27a328528b8, type: 3}
+  m_PrefabInstance: {fileID: 1610045676}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1745986597
 GameObject:
   m_ObjectHideFlags: 0

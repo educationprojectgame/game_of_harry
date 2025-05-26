@@ -518,7 +518,6 @@ GameObject:
   - component: {fileID: 157392701}
   - component: {fileID: 157392700}
   - component: {fileID: 157392699}
-  - component: {fileID: 157392698}
   - component: {fileID: 157392697}
   m_Layer: 0
   m_Name: DoorBackFromMonster
@@ -539,18 +538,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2f7049610b2c92d4cbc939082485a163, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &157392698
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 157392696}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 337375946d488134d9e7f70db54acd5b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &157392699
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -564,10 +551,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   npcTransform: {fileID: 157392702}
-  promptText: {fileID: 0}
+  promptText: {fileID: 378613981}
   offsetY: 2
   showDistance: 1.5
-  playerTransform: {fileID: 0}
+  playerTransform: {fileID: 1713388474}
 --- !u!61 &157392700
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1408,6 +1395,17 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!114 &378613981 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 177962480031285571, guid: 175688b78566c4ac3ab6a27a328528b8, type: 3}
+  m_PrefabInstance: {fileID: 150136538}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &517997963
 GameObject:
   m_ObjectHideFlags: 0
@@ -3616,16 +3614,24 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: -6648098961136482407, guid: 28f6b5f88eb9a4114b11b324a07fba15, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -6648098961136482407, guid: 28f6b5f88eb9a4114b11b324a07fba15, type: 3}
       propertyPath: spawnPoint
       value: 
       objectReference: {fileID: 1455127287}
+    - target: {fileID: 343340821751053008, guid: 28f6b5f88eb9a4114b11b324a07fba15, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 627050503675252930, guid: 28f6b5f88eb9a4114b11b324a07fba15, type: 3}
       propertyPath: isMonster
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 627050503675252930, guid: 28f6b5f88eb9a4114b11b324a07fba15, type: 3}
       propertyPath: maxHealth
-      value: 1000
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 1302278382689638622, guid: 28f6b5f88eb9a4114b11b324a07fba15, type: 3}
       propertyPath: m_Color.b
@@ -10313,7 +10319,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   npcTransform: {fileID: 1678541192}
-  promptText: {fileID: 0}
+  promptText: {fileID: 378613981}
   offsetY: 2
   showDistance: 1.5
   playerTransform: {fileID: 1713388474}
