@@ -284,7 +284,14 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Cleric Interior Asset Free_0: 190925884889506190
+      Cleric Interior Asset Free_1: -1904798938286137854
+      Cleric Interior Asset Free_2: -2981187418570000437
+      Cleric Interior Asset Free_3: -4939633878616510363
+      Cleric Interior Asset Free_4: 3372208766883060357
+      Cleric Interior Asset Free_5: -8531451198536686594
+      Cleric Interior Asset Free_6: -1002884767335976906
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

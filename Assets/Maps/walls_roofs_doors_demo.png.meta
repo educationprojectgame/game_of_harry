@@ -834,7 +834,36 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      walls_roofs_doors_demo_0: -1188494503676447850
+      walls_roofs_doors_demo_1: 3615727483440757902
+      walls_roofs_doors_demo_10: 3883692127249604522
+      walls_roofs_doors_demo_11: -3922975004186985631
+      walls_roofs_doors_demo_12: -4926212678038589367
+      walls_roofs_doors_demo_13: -1804120523146241219
+      walls_roofs_doors_demo_14: -1399439262782862429
+      walls_roofs_doors_demo_15: 1233181102610103370
+      walls_roofs_doors_demo_16: -6876538840268233559
+      walls_roofs_doors_demo_17: -2306205766842012611
+      walls_roofs_doors_demo_18: 6915648504351509966
+      walls_roofs_doors_demo_19: 8406104041716253061
+      walls_roofs_doors_demo_2: -5962574507115032621
+      walls_roofs_doors_demo_20: 2093342461335224645
+      walls_roofs_doors_demo_21: -1069078502223676100
+      walls_roofs_doors_demo_22: -6938437614822303937
+      walls_roofs_doors_demo_23: 891233284143304354
+      walls_roofs_doors_demo_24: -4609031040095879360
+      walls_roofs_doors_demo_25: -4227275374689350348
+      walls_roofs_doors_demo_26: -2152711592588456926
+      walls_roofs_doors_demo_27: 7793845269399395576
+      walls_roofs_doors_demo_28: -8392362636805081095
+      walls_roofs_doors_demo_3: -6819990645841420198
+      walls_roofs_doors_demo_4: 4958440844061108230
+      walls_roofs_doors_demo_5: 3221374730878167687
+      walls_roofs_doors_demo_6: 1301888819215583799
+      walls_roofs_doors_demo_7: -7113481350516205826
+      walls_roofs_doors_demo_8: -6558326599106352693
+      walls_roofs_doors_demo_9: -2009223148806611555
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
