@@ -29917,7 +29917,7 @@ MonoBehaviour:
   promptText: {fileID: 0}
   offsetY: 2
   showDistance: 1.5
-  playerTransform: {fileID: 0}
+  playerTransform: {fileID: 1610045677}
 --- !u!61 &1175261348
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -31679,6 +31679,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 175688b78566c4ac3ab6a27a328528b8, type: 3}
+--- !u!4 &1610045677 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5820935884478925424, guid: 175688b78566c4ac3ab6a27a328528b8, type: 3}
+  m_PrefabInstance: {fileID: 1610045676}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2075958673
 GameObject:
   m_ObjectHideFlags: 0

@@ -10316,7 +10316,7 @@ MonoBehaviour:
   promptText: {fileID: 0}
   offsetY: 2
   showDistance: 1.5
-  playerTransform: {fileID: 0}
+  playerTransform: {fileID: 1713388474}
 --- !u!61 &1678541190
 BoxCollider2D:
   m_ObjectHideFlags: 0
