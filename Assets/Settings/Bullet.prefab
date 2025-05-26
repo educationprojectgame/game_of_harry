@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 5637316325915964417}
   - component: {fileID: 1377938893119122996}
   - component: {fileID: 2364060359563237387}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Bullet
   m_TagString: Bullet
   m_Icon: {fileID: 0}
@@ -180,5 +180,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe1a5d41fe09b4f439995353cef1a88a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  bossId: UniqueBossID_Stone
   maxHealth: 100
   Bar: {fileID: 0}
+  isMonster: 0

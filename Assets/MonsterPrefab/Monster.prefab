@@ -77,7 +77,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 2
   m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
-  m_Color: {r: 0.44705886, g: 0.627451, b: 0.30588236, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -205,12 +205,13 @@ GameObject:
   - component: {fileID: 468951279051249634}
   - component: {fileID: 3128216605918625245}
   - component: {fileID: 5634194233830100078}
-  - component: {fileID: 1467751487262569194}
   - component: {fileID: 1560517850536496576}
   - component: {fileID: 8276798867717825892}
   - component: {fileID: 1604875813265172809}
   - component: {fileID: -6648098961136482407}
   - component: {fileID: 343340821751053008}
+  - component: {fileID: 210831810973014805}
+  - component: {fileID: 7699755777231579473}
   m_Layer: 0
   m_Name: Monster
   m_TagString: MonsterBlue
@@ -364,28 +365,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 4.8125, y: 5.1875}
   m_EdgeRadius: 0
---- !u!114 &1467751487262569194
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6846737477729752061}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a8e9b2feb528a3342a705270e971048a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 0}
-  speed: 4
-  activationDistance: 10
-  chaseDistance: 5
-  slowDownDistance: 10
-  minSpeed: 1
-  idleTimeMin: 1
-  idleTimeMax: 3
-  changeDirectionIntervalMin: 2
-  changeDirectionIntervalMax: 5
 --- !u!114 &1560517850536496576
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -437,7 +416,7 @@ MonoBehaviour:
   projectilePrefab: {fileID: 1223322293401616833, guid: 90af76bf2ee2f4e4d840e03a7dfa5db6, type: 3}
   firePoint: {fileID: 3325044339256886043}
   fireRate: 1
-  shootingRange: 10
+  shootingRange: 20
   projectileSpeed: 7
   detectionHeightDifference: 5
 --- !u!114 &-6648098961136482407
@@ -447,14 +426,27 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6846737477729752061}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: eee61084775c143318db5e6c39170a71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   monsterPrefab: {fileID: 6846737477729752061}
-  spawnPoint: {fileID: 5114150728573996279, guid: 238b2bd32f3ce48c4863a52aff766029, type: 3}
+  spawnPoint: {fileID: 0}
 --- !u!114 &343340821751053008
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6846737477729752061}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ae9a1d82139b4c4ab71160c0b203033, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  monsterDead: 0
+--- !u!114 &210831810973014805
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -463,10 +455,42 @@ MonoBehaviour:
   m_GameObject: {fileID: 6846737477729752061}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ae9a1d82139b4c4ab71160c0b203033, type: 3}
+  m_Script: {fileID: 11500000, guid: 0165f6626084c406cb3e8ddda19cd975, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  monsterDead: 0
+  bossId: UniqueBossID_Room1
+  maxHealth: 1000
+  Bar: {fileID: 2168997559379071331}
+  isMonster: 1
+--- !u!114 &7699755777231579473
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6846737477729752061}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e01ad55dbe5ccfb43aa3b784f80b96b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  baseSpeed: 5
+  sprintSpeedMultiplier: 1.5
+  accelerationRate: 1
+  decelerationRate: 1
+  dashDistance: 5
+  dashDuration: 0.5
+  dashCooldown: 3
+  playerProximityRange: 10
+  projectileLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  projectileDetectionRadius: 5
+  changeDirectionInterval: 3
+  roomBoundsMin: {x: 14.93, y: 18.31}
+  roomBoundsMax: {x: 42.7, y: 39.28}
+  player: {fileID: 0}
+  projectileCheckInterval: 0.5
 --- !u!1 &6893288460428127007
 GameObject:
   m_ObjectHideFlags: 0

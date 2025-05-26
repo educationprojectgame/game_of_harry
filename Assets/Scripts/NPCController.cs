@@ -86,7 +86,7 @@ public class NPCController : MonoBehaviour
         }
     }
 
-    void EndDialogue()
+    public void EndDialogue()
     {
         if (currentDialogueBox != null)
         {
