@@ -160,11 +160,11 @@ public class BossMovement : MonoBehaviour
     {
         if (spriteRenderer == null) return;
         if (player == null) return;
-        if (transform.position.x > player.transform.position.x && !spriteRenderer.flipX)
+        if (transform.position.x < player.transform.position.x && !spriteRenderer.flipX)
         {
             spriteRenderer.flipX = true;
         }
-        else if (transform.position.x < player.transform.position.x && spriteRenderer.flipX)
+        else if (transform.position.x > player.transform.position.x && spriteRenderer.flipX)
         {
             spriteRenderer.flipX = false;
         }
