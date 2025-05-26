@@ -507,6 +507,14 @@ PrefabInstance:
       value: "\u041A\u0430\u043C\u0435\u043D\u043D\u043E\u0435 \u044F\u0434\u0440\u043E
         + health (2)"
       objectReference: {fileID: 0}
+    - target: {fileID: 3843523735041572057, guid: 1e4fc1c8b2a944f1da9f0690b4a04f72, type: 3}
+      propertyPath: bossId
+      value: UniqueBossID_Stone2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3843523735041572057, guid: 1e4fc1c8b2a944f1da9f0690b4a04f72, type: 3}
+      propertyPath: isMonster
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5410648159936070197, guid: 1e4fc1c8b2a944f1da9f0690b4a04f72, type: 3}
       propertyPath: player
       value: 
@@ -31584,6 +31592,14 @@ PrefabInstance:
       value: "\u041A\u0430\u043C\u0435\u043D\u043D\u043E\u0435 \u044F\u0434\u0440\u043E
         + health (2)"
       objectReference: {fileID: 0}
+    - target: {fileID: 3843523735041572057, guid: 1e4fc1c8b2a944f1da9f0690b4a04f72, type: 3}
+      propertyPath: bossId
+      value: UniqueBossID_Stone7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3843523735041572057, guid: 1e4fc1c8b2a944f1da9f0690b4a04f72, type: 3}
+      propertyPath: isMonster
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5410648159936070197, guid: 1e4fc1c8b2a944f1da9f0690b4a04f72, type: 3}
       propertyPath: player
       value: 
@@ -32007,6 +32023,14 @@ PrefabInstance:
       value: "\u041A\u0430\u043C\u0435\u043D\u043D\u043E\u0435 \u044F\u0434\u0440\u043E
         + health (4)"
       objectReference: {fileID: 0}
+    - target: {fileID: 3843523735041572057, guid: 1e4fc1c8b2a944f1da9f0690b4a04f72, type: 3}
+      propertyPath: bossId
+      value: UniqueBossID_Stone4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3843523735041572057, guid: 1e4fc1c8b2a944f1da9f0690b4a04f72, type: 3}
+      propertyPath: isMonster
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5410648159936070197, guid: 1e4fc1c8b2a944f1da9f0690b4a04f72, type: 3}
       propertyPath: player
       value: 
@@ -32223,6 +32247,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: "\u041A\u0430\u043C\u0435\u043D\u043D\u043E\u0435 \u044F\u0434\u0440\u043E
         + health (4)"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3843523735041572057, guid: 1e4fc1c8b2a944f1da9f0690b4a04f72, type: 3}
+      propertyPath: bossId
+      value: UniqueBossID_Stone9
+      objectReference: {fileID: 0}
+    - target: {fileID: 3843523735041572057, guid: 1e4fc1c8b2a944f1da9f0690b4a04f72, type: 3}
+      propertyPath: isMonster
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5410648159936070197, guid: 1e4fc1c8b2a944f1da9f0690b4a04f72, type: 3}
       propertyPath: player
@@ -33157,6 +33189,14 @@ PrefabInstance:
       value: "\u041A\u0430\u043C\u0435\u043D\u043D\u043E\u0435 \u044F\u0434\u0440\u043E
         + health"
       objectReference: {fileID: 0}
+    - target: {fileID: 3843523735041572057, guid: 1e4fc1c8b2a944f1da9f0690b4a04f72, type: 3}
+      propertyPath: bossId
+      value: UniqueBossID_Stone5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3843523735041572057, guid: 1e4fc1c8b2a944f1da9f0690b4a04f72, type: 3}
+      propertyPath: isMonster
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5410648159936070197, guid: 1e4fc1c8b2a944f1da9f0690b4a04f72, type: 3}
       propertyPath: player
       value: 
@@ -33237,6 +33277,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: "\u041A\u0430\u043C\u0435\u043D\u043D\u043E\u0435 \u044F\u0434\u0440\u043E
         + health (1)"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3843523735041572057, guid: 1e4fc1c8b2a944f1da9f0690b4a04f72, type: 3}
+      propertyPath: bossId
+      value: UniqueBossID_Stone6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3843523735041572057, guid: 1e4fc1c8b2a944f1da9f0690b4a04f72, type: 3}
+      propertyPath: isMonster
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5410648159936070197, guid: 1e4fc1c8b2a944f1da9f0690b4a04f72, type: 3}
       propertyPath: player
@@ -33766,6 +33814,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: "\u041A\u0430\u043C\u0435\u043D\u043D\u043E\u0435 \u044F\u0434\u0440\u043E
         + health (3)"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3843523735041572057, guid: 1e4fc1c8b2a944f1da9f0690b4a04f72, type: 3}
+      propertyPath: bossId
+      value: UniqueBossID_Stone3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3843523735041572057, guid: 1e4fc1c8b2a944f1da9f0690b4a04f72, type: 3}
+      propertyPath: isMonster
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5410648159936070197, guid: 1e4fc1c8b2a944f1da9f0690b4a04f72, type: 3}
       propertyPath: player
@@ -36970,6 +37026,50 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!1 &1476911194
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1476911196}
+  - component: {fileID: 1476911195}
+  m_Layer: 0
+  m_Name: CheckerStone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1476911195
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1476911194}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5377949b09d634571bcec9053f9c40e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &1476911196
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1476911194}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 8.005752, y: 23.92, z: 0.014895421}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1509179317
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -36982,6 +37082,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: "\u041A\u0430\u043C\u0435\u043D\u043D\u043E\u0435 \u044F\u0434\u0440\u043E
         + health (1)"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3843523735041572057, guid: 1e4fc1c8b2a944f1da9f0690b4a04f72, type: 3}
+      propertyPath: bossId
+      value: UniqueBossID_Stone1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3843523735041572057, guid: 1e4fc1c8b2a944f1da9f0690b4a04f72, type: 3}
+      propertyPath: isMonster
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5410648159936070197, guid: 1e4fc1c8b2a944f1da9f0690b4a04f72, type: 3}
       propertyPath: player
@@ -37416,6 +37524,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: "\u041A\u0430\u043C\u0435\u043D\u043D\u043E\u0435 \u044F\u0434\u0440\u043E
         + health"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3843523735041572057, guid: 1e4fc1c8b2a944f1da9f0690b4a04f72, type: 3}
+      propertyPath: bossId
+      value: UniqueBossID_Stone0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3843523735041572057, guid: 1e4fc1c8b2a944f1da9f0690b4a04f72, type: 3}
+      propertyPath: isMonster
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5410648159936070197, guid: 1e4fc1c8b2a944f1da9f0690b4a04f72, type: 3}
       propertyPath: player
@@ -39040,6 +39156,14 @@ PrefabInstance:
       value: "\u041A\u0430\u043C\u0435\u043D\u043D\u043E\u0435 \u044F\u0434\u0440\u043E
         + health (3)"
       objectReference: {fileID: 0}
+    - target: {fileID: 3843523735041572057, guid: 1e4fc1c8b2a944f1da9f0690b4a04f72, type: 3}
+      propertyPath: bossId
+      value: UniqueBossID_Stone8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3843523735041572057, guid: 1e4fc1c8b2a944f1da9f0690b4a04f72, type: 3}
+      propertyPath: isMonster
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5410648159936070197, guid: 1e4fc1c8b2a944f1da9f0690b4a04f72, type: 3}
       propertyPath: player
       value: 
@@ -39516,3 +39640,4 @@ SceneRoots:
   - {fileID: 75685619}
   - {fileID: 1515770637}
   - {fileID: 817991379}
+  - {fileID: 1476911196}
