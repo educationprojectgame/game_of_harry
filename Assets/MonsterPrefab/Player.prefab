@@ -962,7 +962,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 7
+  m_SortingOrder: 20
   m_Sprite: {fileID: -2868043000275091224, guid: eef3ae3a316e5c048847d23641b85c8e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1039,7 +1039,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.6363636, y: 1.9090909}
+    oldSize: {x: 1.2, y: 1.4}
     newSize: {x: 1.2, y: 2.1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -1060,10 +1060,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
+  manna: 100
   dashDistance: 10
   dashDuration: 0.5
   dashCooldown: 1
-  manna: 100
   rb: {fileID: 0}
   animator: {fileID: 4389736055833758834}
   bullet: {fileID: 1795466694073159482, guid: 0c69947cc080ed240ab243bcde5e022a, type: 3}
@@ -1595,7 +1595,7 @@ Canvas:
   m_AdditionalShaderChannelsFlag: 0
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 14
+  m_SortingOrder: 20
   m_TargetDisplay: 0
 --- !u!114 &6212045089941577415
 MonoBehaviour:
