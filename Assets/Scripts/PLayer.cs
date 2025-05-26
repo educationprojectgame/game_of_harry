@@ -44,6 +44,7 @@ public class Player : MonoBehaviour
             {
                 transform.position = spawnPoint.transform.position;
                 PlayerPrefs.DeleteKey("SpawnPoint");
+                return;
             }
         }
 

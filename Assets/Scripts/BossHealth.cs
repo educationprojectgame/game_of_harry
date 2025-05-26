@@ -2,10 +2,10 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-public class Health : MonoBehaviour
+public class BossHealth : MonoBehaviour
 {
-    public string bossId = "UniqueBossID_Stone";
-    public float maxHealth = 30;
+    public string bossId = "UniqueBossID_Room1";
+    public float maxHealth = 1000;
 
     private float currentHealth;
 
@@ -21,7 +21,7 @@ public class Health : MonoBehaviour
         {
             Debug.Log($"Boss {bossId} was already defeated. Deactivating.");
             gameObject.SetActive(false); // Деактивируем босса, если он уже побежден
-             // Выходим, чтобы не выполнять остальную логику инициализации
+            return; // Выходим, чтобы не выполнять остальную логику инициализации
         }
         // Обычная инициализация, если босс не был побежден
         currentHealth = maxHealth;
@@ -32,7 +32,7 @@ public class Health : MonoBehaviour
         currentHealth -= damage;
         Debug.Log($"Boss {bossId} took {damage} damage, current health: {currentHealth}");
 
-        Bar.fillAmount = currentHealth / 100;
+        Bar.fillAmount = currentHealth / 1000;
         if (maxHealth <= 0 || currentHealth <= 0)
         {
             Die();
