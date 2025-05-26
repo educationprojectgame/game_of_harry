@@ -10338,7 +10338,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bossId: UniqueBossID_Room1
-  maxHealth: 10
+  maxHealth: 1000
   Bar: {fileID: 1847913223}
   isMonster: 1
 --- !u!1 &1678541187
