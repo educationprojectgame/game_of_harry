@@ -1,19 +1,19 @@
 using UnityEngine;
 
-public class CollisionDamage : MonoBehaviour
+public class CollisionDamageForYadro : MonoBehaviour
 {
     public int damage = 10;
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        BossHealth health = collision.gameObject.GetComponent<BossHealth>();
+        Health health = collision.gameObject.GetComponent<Health>();
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Bullet"))
         {
-            BossHealth health = GetComponent<BossHealth>(); // получаем своё здоровье
+            Health health = GetComponent<Health>(); // получаем своё здоровье
             if (health != null)
             {
                 health.TakeDamage(10); // допустим, каждая пуля наносит 10 урона

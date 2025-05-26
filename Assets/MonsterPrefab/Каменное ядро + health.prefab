@@ -264,7 +264,7 @@ PrefabInstance:
     - target: {fileID: 1974007977720122397, guid: c96c4fd19b8161c46898f3fe9a56a619, type: 3}
       propertyPath: m_Name
       value: "\u041A\u0430\u043C\u0435\u043D\u043D\u043E\u0435 \u044F\u0434\u0440\u043E
-        1_0 Variant"
+        + health"
       objectReference: {fileID: 0}
     - target: {fileID: 7211015311600037883, guid: c96c4fd19b8161c46898f3fe9a56a619, type: 3}
       propertyPath: speed
@@ -324,9 +324,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 1974007977720122397, guid: c96c4fd19b8161c46898f3fe9a56a619, type: 3}
       insertIndex: -1
       addedObject: {fileID: 3843523735041572057}
-    - targetCorrespondingSourceObject: {fileID: 1974007977720122397, guid: c96c4fd19b8161c46898f3fe9a56a619, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 4270610727058137289}
   m_SourcePrefab: {fileID: 100100000, guid: c96c4fd19b8161c46898f3fe9a56a619, type: 3}
 --- !u!1 &3774511413117411795 stripped
 GameObject:
@@ -348,19 +345,6 @@ MonoBehaviour:
   maxHealth: 30
   Bar: {fileID: 6662266935513206746}
   isMonster: 0
---- !u!114 &4270610727058137289
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3774511413117411795}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e7492ce5809fc0f44960bf343d3232d7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  damage: 5
 --- !u!4 &6140399660769669114 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8805596206489403956, guid: c96c4fd19b8161c46898f3fe9a56a619, type: 3}
