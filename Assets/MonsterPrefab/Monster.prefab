@@ -210,6 +210,8 @@ GameObject:
   - component: {fileID: 1560517850536496576}
   - component: {fileID: 8276798867717825892}
   - component: {fileID: 1604875813265172809}
+  - component: {fileID: -6648098961136482407}
+  - component: {fileID: 343340821751053008}
   m_Layer: 0
   m_Name: Monster
   m_TagString: MonsterBlue
@@ -377,6 +379,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHealth: 100
   Bar: {fileID: 2168997559379071331}
+  isMonster: 1
 --- !u!114 &1467751487262569194
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -453,6 +456,33 @@ MonoBehaviour:
   shootingRange: 10
   projectileSpeed: 7
   detectionHeightDifference: 5
+--- !u!114 &-6648098961136482407
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6846737477729752061}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eee61084775c143318db5e6c39170a71, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  monsterPrefab: {fileID: 6846737477729752061}
+  spawnPoint: {fileID: 5114150728573996279, guid: 238b2bd32f3ce48c4863a52aff766029, type: 3}
+--- !u!114 &343340821751053008
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6846737477729752061}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ae9a1d82139b4c4ab71160c0b203033, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  monsterDead: 0
 --- !u!1 &6893288460428127007
 GameObject:
   m_ObjectHideFlags: 0
