@@ -1,75 +1,91 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class EnterDoor : MonoBehaviour
 {
-    private bool enterAllowed;
-    private string spawnTarget;
-    private string checkPointTarget;
-    private string sceneToLoad;
+    private string currentSpawnTarget;
+    private string currentCheckPointTarget;
+    private string currentSceneToLoad;
+    private bool isInTrigger;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.GetComponent<BrownDoor>())
         {
-            spawnTarget = "BlueDoor";
-            sceneToLoad = "GameScene";
+            currentSpawnTarget = "BlueDoor";
+            currentSceneToLoad = "GameScene";
+            isInTrigger = true;
         }
         else if (collision.GetComponent<DoorToCastle>())
         {
-            spawnTarget = "HagridHouseDoor";
-            checkPointTarget = "HagridHouseDoor";
-            sceneToLoad = "Castle";
+            currentSpawnTarget = "HagridHouseDoor";
+            currentCheckPointTarget = "HagridHouseDoor";
+            currentSceneToLoad = "Castle";
+            isInTrigger = true;
         }
         else if (collision.GetComponent<HagridHouseDoor>())
         {
-            spawnTarget = "DoorToCastle";
-            sceneToLoad = "GameScene";
+            currentSpawnTarget = "DoorToCastle";
+            currentSceneToLoad = "GameScene";
+            isInTrigger = true;
         }
         else if (collision.GetComponent<DoorToMonster>())
         {
-            spawnTarget = "DoorBackFromMonster";
-            checkPointTarget = "DoorBackFromMonster";
-            sceneToLoad = "BossHouse";
+            currentSpawnTarget = "DoorBackFromMonster";
+            currentCheckPointTarget = "DoorBackFromMonster";
+            currentSceneToLoad = "BossHouse";
+            isInTrigger = true;
         }
         else if (collision.GetComponent<DoorBackFromMonster>())
         {
-            spawnTarget = "DoorToMonster";
-            sceneToLoad = "Castle";
+            currentSpawnTarget = "DoorToMonster";
+            currentSceneToLoad = "Castle";
+            isInTrigger = true;
         }
         else if (collision.GetComponent<LadderToStone>())
         {
-            spawnTarget = "LadderFromStone";
-            sceneToLoad = "StoneRoom";
+            currentSpawnTarget = "LadderFromStone";
+            currentSceneToLoad = "StoneRoom";
+            isInTrigger = true;
         }
         else if (collision.GetComponent<LadderFromStone>())
         {
-            spawnTarget = "LadderToStone";
-            sceneToLoad = "BossHouse";
+            currentSpawnTarget = "LadderToStone";
+            currentSceneToLoad = "BossHouse";
+            isInTrigger = true;
         }
-
-
-        PlayerPrefs.SetString("SpawnPoint", spawnTarget);
-        PlayerPrefs.SetString("CheckPoint", checkPointTarget);
-        PlayerPrefs.SetString("CheckPointScene", sceneToLoad);
-        enterAllowed = true;
     }
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        if (collision.GetComponent<BlueDoor>() || collision.GetComponent<BrownDoor>())
+        if (collision.GetComponent<BlueDoor>() || collision.GetComponent<BrownDoor>() ||
+            collision.GetComponent<DoorToCastle>() || collision.GetComponent<HagridHouseDoor>() ||
+            collision.GetComponent<DoorToMonster>() || collision.GetComponent<DoorBackFromMonster>() ||
+            collision.GetComponent<LadderToStone>() || collision.GetComponent<LadderFromStone>())
         {
-            enterAllowed = false;
+            isInTrigger = false;
+            // Очищаем текущие цели при выходе из триггера
+            currentSpawnTarget = null;
+            currentCheckPointTarget = null;
+            currentSceneToLoad = null;
         }
     }
 
     private void Update()
     {
-        if (enterAllowed && Input.GetKey(KeyCode.Return) && sceneToLoad != null)
+        if (isInTrigger && Input.GetKeyDown(KeyCode.Return) && !string.IsNullOrEmpty(currentSceneToLoad))
         {
-            SceneManager.LoadScene(sceneToLoad);
+            // Сохраняем данные только в момент нажатия Enter
+            PlayerPrefs.SetString("SpawnPoint", currentSpawnTarget);
+
+            if (!string.IsNullOrEmpty(currentCheckPointTarget))
+            {
+                PlayerPrefs.SetString("CheckPoint", currentCheckPointTarget);
+                PlayerPrefs.SetString("CheckPointScene", currentSceneToLoad);
+            }
+
+            // Загружаем сцену
+            SceneManager.LoadScene(currentSceneToLoad);
         }
     }
 }
