@@ -1,29 +1,37 @@
+using System.Collections;
 using UnityEngine;
 
 public class Portal : MonoBehaviour
 {
-    [SerializeField] private Portal toPortal;
-    [SerializeField] private GameObject tpEffect;
-
-    public static bool tpActive;
-    void Start()
-    {
-        tpActive = true;
-    }
+    public Transform destinationPortal;
+    public float teleportCooldown = 0.5f;
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        Rigidbody2D rb = other.GetComponent<Rigidbody2D>();
-        if (rb && tpActive != null)
+        // Проверяем, что объект — игрок и он может телепортироваться
+        if (other.CompareTag("Player"))
         {
-            tpActive = false;
-            float magnitude = rb.angularVelocity;
+            PlayerTeleportTracker tracker = other.GetComponent<PlayerTeleportTracker>();
+
+            if (tracker != null && tracker.canTeleport)
+            {
+                StartCoroutine(Teleport(other, tracker));
+            }
         }
-        else tpActive = true;
     }
-    // Update is called once per frame
-    void Update()
+
+    private IEnumerator Teleport(Collider2D player, PlayerTeleportTracker tracker)
     {
-        
+        // Запрещаем повторную телепортацию
+        tracker.canTeleport = false;
+
+        // Телепортируем игрока
+        player.transform.position = destinationPortal.position;
+
+        // Ждём кулдаун
+        yield return new WaitForSeconds(teleportCooldown);
+
+        // Разрешаем телепортироваться снова
+        tracker.canTeleport = true;
     }
 }
