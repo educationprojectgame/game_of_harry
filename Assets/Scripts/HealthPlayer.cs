@@ -23,7 +23,7 @@ public class HealthPlayer : MonoBehaviour
     {
         string checkPointScene = PlayerPrefs.GetString("CheckPointScene");
 
-        Destroy(gameObject);
+        
 
         if (!string.IsNullOrEmpty(checkPointScene))
         {
@@ -31,7 +31,7 @@ public class HealthPlayer : MonoBehaviour
         }
         else
         {
-            SceneManager.LoadScene("Menu");
+            SceneManager.LoadScene("GameOver");
         }
     }
 }

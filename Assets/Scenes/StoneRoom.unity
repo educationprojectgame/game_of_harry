@@ -1598,6 +1598,50 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!1 &723047880
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 723047882}
+  - component: {fileID: 723047881}
+  m_Layer: 0
+  m_Name: PManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &723047881
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 723047880}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7983a01629207479091e5d118c57e633, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &723047882
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 723047880}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 44.96, y: 11.89, z: 38.13012}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1100839438
 GameObject:
   m_ObjectHideFlags: 0
@@ -2457,6 +2501,7 @@ GameObject:
   - component: {fileID: 1209508376}
   - component: {fileID: 1209508378}
   - component: {fileID: 1209508380}
+  - component: {fileID: 1209508381}
   m_Layer: 0
   m_Name: Crystall
   m_TagString: Crystall
@@ -2662,6 +2707,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   crystall: {fileID: 1209508374}
+--- !u!114 &1209508381
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1209508374}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 186f7eb45167f48ce86597cc172d0b93, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: Crystall
+  destroyOnCollect: 1
 --- !u!1 &1631748282
 GameObject:
   m_ObjectHideFlags: 0
@@ -2890,6 +2949,10 @@ PrefabInstance:
     - target: {fileID: 7605550524599901425, guid: 175688b78566c4ac3ab6a27a328528b8, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7999672970392353903, guid: 175688b78566c4ac3ab6a27a328528b8, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4220,3 +4283,4 @@ SceneRoots:
   m_Roots:
   - {fileID: 1763919416}
   - {fileID: 1654521635}
+  - {fileID: 723047882}
