@@ -3456,6 +3456,7 @@ GameObject:
   m_Component:
   - component: {fileID: 601287906}
   - component: {fileID: 601287905}
+  - component: {fileID: 601287907}
   m_Layer: 0
   m_Name: checker
   m_TagString: Untagged
@@ -3490,6 +3491,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &601287907
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 601287904}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f56722a1d7fcfb418a327da714a6537, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boss: {fileID: 1628139229}
+  enterDoorScript: {fileID: 1713388476}
 --- !u!1 &615972117
 GameObject:
   m_ObjectHideFlags: 0
@@ -10694,6 +10709,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7584ece9ca4a9324fa87446baeded437, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  requiredItemIdForSpecialDialogue: Crystall
+  defaultDialogue: []
+  specialDialogueAfterItemCollected: []
   interactionDistance: 10
   dialogueBoxPrefab: {fileID: 8316737730571024803, guid: 7211dfaacd14c1b45ad396dabb2b2613, type: 3}
   playerTransform: {fileID: 1713388474}
@@ -10932,6 +10950,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 888b09f8856d65b468b9107fca837a9f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1713388476 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2655161150053376765, guid: 175688b78566c4ac3ab6a27a328528b8, type: 3}
+  m_PrefabInstance: {fileID: 150136538}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 323020806}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 951d22385ba4e904f8b3168053060fa8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1770291088
