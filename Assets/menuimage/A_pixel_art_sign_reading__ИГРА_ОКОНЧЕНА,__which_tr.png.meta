@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      "A_pixel_art_sign_reading__\u0418\u0413\u0420\u0410_\u041E\u041A\u041E\u041D\u0427\u0415\u041D\u0410,__which_tr_0": -260000326164041019
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

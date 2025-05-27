@@ -288,11 +288,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8805596206489403956, guid: c96c4fd19b8161c46898f3fe9a56a619, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 7.44
+      value: 2.82
       objectReference: {fileID: 0}
     - target: {fileID: 8805596206489403956, guid: c96c4fd19b8161c46898f3fe9a56a619, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 21.12
+      value: 20.37
       objectReference: {fileID: 0}
     - target: {fileID: 8805596206489403956, guid: c96c4fd19b8161c46898f3fe9a56a619, type: 3}
       propertyPath: m_LocalPosition.z
@@ -428,8 +428,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 0}
-  explodeTrigger: explosion52
-  destroyDelay: 0.5
+  explodeTrigger: explode52
+  destroyDelay: 0
   playerTag: PlayerGame
   destroyEffect: {fileID: 0}
   damage: 20
