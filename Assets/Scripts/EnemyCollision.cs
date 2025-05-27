@@ -4,12 +4,11 @@ public class EnemyCollision : MonoBehaviour
 {
     [Header("Настройки взрыва")]
     public Animator animator;
-    public string explodeTrigger = "explosion52";
-    public float destroyDelay = 0.5f;
+    public string explodeTrigger = "explode52";
     private bool isExploded = false;
 
     [Header("Настройки")]
-    public string playerTag = "Player";
+    public string playerTag = "PlayerGame";
     public GameObject destroyEffect; // опционально — можно не использовать
     public int damage = 20;
 
@@ -46,7 +45,7 @@ public class EnemyCollision : MonoBehaviour
         }
 
         // Уничтожаем объект после задержки
-        Destroy(gameObject, destroyDelay);
+        Destroy(gameObject);
     }
 
     private void DisableComponents()
