@@ -284,7 +284,14 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      RADL_Book_white_0: -5062689329770617522
+      RADL_Book_white_1: 6415593851312817631
+      RADL_Book_white_2: -860182247338830923
+      RADL_Book_white_3: 1773685382755033494
+      RADL_Book_white_4: -922606313413337044
+      RADL_Book_white_5: 5594699526071452667
+      RADL_Book_white_6: 2731967113856282522
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
