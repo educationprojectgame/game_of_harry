@@ -3,27 +3,14 @@ using System.Collections.Generic;
 
 public class DialogueManager : MonoBehaviour
 {
-    [Tooltip("List of scripts to disable during dialogue.")]
     public List<MonoBehaviour> scriptsToDisable = new List<MonoBehaviour>();
-
-    [Tooltip("The camera to disable during dialogue (usually the main camera).")]
     public Camera cameraToDisable;
-
-    [Tooltip("The camera to enable during dialogue.")]
     public Camera cameraToEnable;
-
-    [Tooltip("The NPCController script responsible for the dialogue.")]
     public NPCController npcController;
-
-    [Tooltip("The key to press to advance the dialogue.")]
     public KeyCode activationKey = KeyCode.E;
-
-    [Tooltip("Number of key presses needed to exit the dialogue.")]
     public int requiredPresses = 3;
-
     private int pressCount = 0;
     private bool inDialogue = false; // Tracks if we're in the dialogue state.
-    private List<bool> scriptStates = new List<bool>(); //Store original states
      private bool camerasSwitched = false;
 
     void Start()
@@ -46,15 +33,6 @@ public class DialogueManager : MonoBehaviour
             Debug.LogError("NPCController must be assigned.  Disabling script");
             enabled = false;
             return;
-        }
-
-        // Store original states of the scripts so they can be restored later.
-        foreach (var script in scriptsToDisable)
-        {
-            if (script != null)
-            {
-                scriptStates.Add(script.enabled);
-            }
         }
 
         StartDialogue();  // Start the Dialogue Immediately
@@ -94,8 +72,8 @@ public class DialogueManager : MonoBehaviour
 
 
         //Disable/Enable cameras
-        cameraToDisable.enabled = false;
-        cameraToEnable.enabled = true;
+        cameraToDisable.gameObject.SetActive(false);
+        cameraToEnable.gameObject.SetActive(true);
         camerasSwitched = true; // Make Sure that we track if cameras were Switched
 
 
@@ -111,20 +89,17 @@ public class DialogueManager : MonoBehaviour
     private void EndDialogue()
     {
         inDialogue = false;  //we are no longer in Dialogue
-
+        cameraToEnable.gameObject.SetActive(false);
+        cameraToDisable.gameObject.SetActive(true);
+        camerasSwitched = false;
         //Re-enable Scripts to original state.
         for (int i = 0; i < scriptsToDisable.Count; i++)
         {
             if (scriptsToDisable[i] != null)
             {
-                scriptsToDisable[i].enabled = scriptStates[i]; //Restore Original State
+                scriptsToDisable[i].enabled = true; //Restore Original State
             }
         }
-
-        //Re-enable / disable cameras
-        cameraToEnable.enabled = false;
-        cameraToDisable.enabled = true;
-        camerasSwitched = false;
 
         //End NPC dialogue
         npcController.EndDialogue(); //Assumes EndDialogue exists on the NPC Controller
@@ -142,8 +117,8 @@ public class DialogueManager : MonoBehaviour
             EndDialogue();
         }
          if(camerasSwitched){
-            cameraToEnable.enabled = false;
-            cameraToDisable.enabled = true;
+            cameraToEnable.gameObject.SetActive(false);
+            cameraToDisable.gameObject.SetActive(true);
         }
     }
 }
