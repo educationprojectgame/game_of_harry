@@ -4,6 +4,18 @@ using UnityEngine.UI;
 
 public class NPCController : MonoBehaviour
 {
+     // ID кристалла, который нужно проверить
+    public string requiredItemIdForSpecialDialogue = "Crystall";
+
+    // Массивы строк для разных диалогов
+    public string[] defaultDialogue;
+    public string[] specialDialogueAfterItemCollected;
+
+    // Ссылка на UI элемент для отображения диалога (пример)
+    // public TextMeshProUGUI dialogueTextUI;
+    // Или ваша система диалогов
+
+    private bool playerInRange = false;
     public float interactionDistance = 2f;
     public GameObject dialogueBoxPrefab;
     public Transform playerTransform;
