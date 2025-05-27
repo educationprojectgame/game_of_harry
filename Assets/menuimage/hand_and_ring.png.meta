@@ -1,0 +1,455 @@
+fileFormatVersion: 2
+guid: afb2a209cad6d4f4a8329d10d7b963e7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8073978228651040304
+    second: hand_and_ring_0
+  - first:
+      213: -2897368327278584938
+    second: hand_and_ring_1
+  - first:
+      213: 1068670154589778567
+    second: hand_and_ring_2
+  - first:
+      213: 6871329198968869326
+    second: hand_and_ring_3
+  - first:
+      213: 6539758253514903703
+    second: hand_and_ring_4
+  - first:
+      213: 6276602118437531509
+    second: hand_and_ring_5
+  - first:
+      213: 6005245431631671528
+    second: hand_and_ring_6
+  - first:
+      213: 3892595570938496603
+    second: hand_and_ring_7
+  - first:
+      213: 6934315157704496014
+    second: hand_and_ring_8
+  - first:
+      213: 7505550119621751679
+    second: hand_and_ring_9
+  - first:
+      213: 8548303435023804626
+    second: hand_and_ring_10
+  - first:
+      213: -4066991041915147936
+    second: hand_and_ring_11
+  - first:
+      213: -5766099743329199774
+    second: hand_and_ring_12
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: hand_and_ring_0
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 41
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03e9bf2db688c0070800000000000000
+      internalID: 8073978228651040304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand_and_ring_1
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 41
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69b97157bda7ac7d0800000000000000
+      internalID: -2897368327278584938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand_and_ring_2
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 41
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 782b262f7dda4de00800000000000000
+      internalID: 1068670154589778567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand_and_ring_3
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 41
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec11f47208ddb5f50800000000000000
+      internalID: 6871329198968869326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand_and_ring_4
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 41
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7905fa18b73e1ca50800000000000000
+      internalID: 6539758253514903703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand_and_ring_5
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 41
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57feee13f58fa1750800000000000000
+      internalID: 6276602118437531509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand_and_ring_6
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 41
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e0717527eae65350800000000000000
+      internalID: 6005245431631671528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand_and_ring_7
+      rect:
+        serializedVersion: 2
+        x: 937
+        y: 41
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b564c044c07450630800000000000000
+      internalID: 3892595570938496603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand_and_ring_8
+      rect:
+        serializedVersion: 2
+        x: 1065
+        y: 41
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e83559775e2ab3060800000000000000
+      internalID: 6934315157704496014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand_and_ring_9
+      rect:
+        serializedVersion: 2
+        x: 1193
+        y: 41
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f73f1f35112192860800000000000000
+      internalID: 7505550119621751679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand_and_ring_10
+      rect:
+        serializedVersion: 2
+        x: 1321
+        y: 41
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d868dceeaca1a670800000000000000
+      internalID: 8548303435023804626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand_and_ring_11
+      rect:
+        serializedVersion: 2
+        x: 1449
+        y: 41
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 069a3f9f1352f87c0800000000000000
+      internalID: -4066991041915147936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand_and_ring_12
+      rect:
+        serializedVersion: 2
+        x: 1577
+        y: 41
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 269546365d2baffa0800000000000000
+      internalID: -5766099743329199774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      hand_and_ring_0: 8073978228651040304
+      hand_and_ring_1: -2897368327278584938
+      hand_and_ring_10: 8548303435023804626
+      hand_and_ring_11: -4066991041915147936
+      hand_and_ring_12: -5766099743329199774
+      hand_and_ring_2: 1068670154589778567
+      hand_and_ring_3: 6871329198968869326
+      hand_and_ring_4: 6539758253514903703
+      hand_and_ring_5: 6276602118437531509
+      hand_and_ring_6: 6005245431631671528
+      hand_and_ring_7: 3892595570938496603
+      hand_and_ring_8: 6934315157704496014
+      hand_and_ring_9: 7505550119621751679
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
