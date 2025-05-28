@@ -330,8 +330,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1dc8138a60f397a4c9db6bfe5ca5c703, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 4
-  chaseSpeedMultiplier: 1.5
+  speed: 3
+  chaseSpeedMultiplier: 1.25
   detectionDistance: 10
   patrolPoints:
   - {fileID: 0}
@@ -353,7 +353,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bossId: UniqueBossID_Stone100
-  maxHealth: 80
+  maxHealth: 50
   Bar: {fileID: 3169854109713207478}
   isMonster: 1
 --- !u!114 &4350886008200686538

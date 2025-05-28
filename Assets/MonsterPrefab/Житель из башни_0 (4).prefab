@@ -467,7 +467,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bossId: UniqueBossID_Stone200
-  maxHealth: 50
+  maxHealth: 40
   Bar: {fileID: 6782257960808899342}
   isMonster: 1
 --- !u!114 &821574053124365747
@@ -512,7 +512,7 @@ MonoBehaviour:
   playerTransform: {fileID: 0}
   projectilePrefab: {fileID: 1364432248225710817, guid: 63db1eff65d83da478e08daeb1e4de31, type: 3}
   firePoint: {fileID: 2024371856345534436}
-  fireRate: 1
+  fireRate: 0.5
   shootingRange: 20
   projectileSpeed: 7
   detectionHeightDifference: 5

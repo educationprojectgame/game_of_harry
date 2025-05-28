@@ -26,9 +26,9 @@ public class NewPatrolAndChase : MonoBehaviour
             return;
         }
 
-        if (patrolPoints == null || patrolPoints.Length < 4)
+        if (patrolPoints == null || patrolPoints.Length < 2)
         {
-            Debug.LogError("Not enough patrol points! Need at least 4.");
+            Debug.LogError("Not enough patrol points! Need at least 2.");
             enabled = false;
             return;
         }
