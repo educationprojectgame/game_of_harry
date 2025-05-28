@@ -18,12 +18,12 @@ public class ChangeDialogue : MonoBehaviour
     {
         if (playerTransform == null)
         {
-            Debug.LogError("Не назначен Transform игрока! Перетащите Transform игрока в поле 'Player Transform' в инспекторе.");
+            Debug.LogError("пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ Transform пїЅпїЅпїЅпїЅпїЅпїЅ! пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ Transform пїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅ 'Player Transform' пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.");
             enabled = false;
         }
         if (dialogueCanvas == null)
         {
-            Debug.LogError("Не назначен Canvas! Перетащите GameObject Canvas в поле 'Dialogue Canvas' в инспекторе.");
+            Debug.LogError("пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ Canvas! пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ GameObject Canvas пїЅ пїЅпїЅпїЅпїЅ 'Dialogue Canvas' пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.");
             enabled = false;
         }
     }
@@ -76,7 +76,7 @@ public class ChangeDialogue : MonoBehaviour
         }
         else
         {
-            Debug.LogError("Не назначен префаб DialogueBox или Canvas! Проверьте инспектор NPC.");
+            Debug.LogError("пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ DialogueBox пїЅпїЅпїЅ Canvas! пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ NPC.");
         }
     }
 
@@ -95,6 +95,7 @@ public class ChangeDialogue : MonoBehaviour
                 EndDialogue();
                 SceneManager.LoadScene("Menu");
             }
+            EndDialogue();
         }
     }
 

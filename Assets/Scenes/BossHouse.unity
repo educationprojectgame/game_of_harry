@@ -4161,8 +4161,12 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 323020806}
     - target: {fileID: 7699755777231579473, guid: 28f6b5f88eb9a4114b11b324a07fba15, type: 3}
+      propertyPath: dashCooldown
+      value: 2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7699755777231579473, guid: 28f6b5f88eb9a4114b11b324a07fba15, type: 3}
       propertyPath: dashDistance
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: -6648098961136482407, guid: 28f6b5f88eb9a4114b11b324a07fba15, type: 3}
