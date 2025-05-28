@@ -56,11 +56,10 @@ public class PatrolAndChase : MonoBehaviour
     void Patrol()
     {
         Vector2 targetPosition = patrolPoints[currentPatrolIndex].position;
-
+        SetMoveDirection();
         if (Vector2.Distance(transform.position, targetPosition) < closeEnoughDistance)
         {
             currentPatrolIndex = (currentPatrolIndex + 1) % patrolPoints.Length;
-            SetMoveDirection();
         }
 
         // Flip if needed
