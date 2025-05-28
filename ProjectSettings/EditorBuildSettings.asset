@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: 201f773dff3954c6d825dba00cf9ad56
+  - enabled: 1
     path: Assets/Scenes/GameScene.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
   - enabled: 1
@@ -13,7 +16,7 @@ EditorBuildSettings:
     guid: 3e259906757153f438871a5682f97bda
   - enabled: 1
     path: Assets/Scenes/Castle.unity
-    guid: da64082bc42928f40beaac5644cb13e2
+    guid: 55e67ff8524fd4e8893c507b68f9a627
   - enabled: 1
     path: Assets/Scenes/BossHouse.unity
     guid: 67d9f6a935c76874d997853e83274a5c
@@ -26,9 +29,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/GameOver.unity
     guid: c7b455571395544a3905c69639271cf4
-  - enabled: 1
-    path: Assets/Scenes/Menu.unity
-    guid: 201f773dff3954c6d825dba00cf9ad56
   - enabled: 1
     path: "Assets/Scenes/\u0428\u0430\u0445\u043C\u0430\u04422.unity"
     guid: 5d71752ff93dbc84bb05818e3a01fc6a
