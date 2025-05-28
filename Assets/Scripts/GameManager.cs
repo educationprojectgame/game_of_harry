@@ -12,7 +12,7 @@ public class ChessManager : MonoBehaviour
     private float cellSize = 1f;
     private Vector2 boardOrigin = new Vector2(-3.5f, -3.5f);
 
-    private Vector2Int keyPosition = new Vector2Int(7, 7); // Ключ в правом верхнем углу
+    private Vector2Int keyPosition = new Vector2Int(7, 7);
     private Vector2Int[] enemyPositions = new Vector2Int[]
     {
         new Vector2Int(2, 3),
@@ -75,7 +75,11 @@ public class ChessManager : MonoBehaviour
         if (playerPosition == keyPosition)
         {
             Debug.Log("Победа! Гарри нашёл ключ!");
-            // Можно перезапустить сцену или показать UI
+
+
+            TeleportData.returnPosition = new Vector2(35.63f, -12.34f);
+
+            SceneManager.LoadScene("GameScene");
         }
 
         // Проигрыш
@@ -84,7 +88,7 @@ public class ChessManager : MonoBehaviour
             if (playerPosition == enemy)
             {
                 Debug.Log("Гарри пойман врагом! Игра окончена.");
-                SceneManager.LoadScene(SceneManager.GetActiveScene().name); // Перезапуск
+                SceneManager.LoadScene(SceneManager.GetActiveScene().name);
             }
         }
     }
