@@ -63,7 +63,7 @@ public class PatrolAndChase : MonoBehaviour
         }
 
         // Flip if needed
-        if ((moveDirection.x < 0 && !facingRight) || (moveDirection.x > 0 && facingRight))
+        if ((moveDirection.x > 0 && !facingRight) || (moveDirection.x < 0 && facingRight))
         {
             Flip();
         }
@@ -76,7 +76,7 @@ public class PatrolAndChase : MonoBehaviour
         Vector2 direction = (player.position - transform.position).normalized;
 
         // Flip if needed
-        if ((direction.x < 0 && !facingRight) || (direction.x > 0 && facingRight))
+        if ((direction.x > 0 && !facingRight) || (direction.x < 0 && facingRight))
         {
             Flip();
         }
