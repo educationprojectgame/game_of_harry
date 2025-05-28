@@ -54,6 +54,22 @@ public class Player : MonoBehaviour
             if (checkPoint != null)
                 transform.position = checkPoint.transform.position;
         }
+        
+            Debug.Log("TeleportData.returnPosition = " + TeleportData.returnPosition);
+
+            if (TeleportData.returnPosition != Vector2.zero)
+            {
+                transform.position = new Vector3(
+                    TeleportData.returnPosition.x,
+                    TeleportData.returnPosition.y,
+                    transform.position.z
+                );
+
+                Debug.Log("Player teleported to: " + transform.position);
+
+                TeleportData.returnPosition = Vector2.zero;
+            
+        }
     }
 
     private void Update()

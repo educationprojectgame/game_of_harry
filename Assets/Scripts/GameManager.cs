@@ -77,7 +77,7 @@ public class ChessManager : MonoBehaviour
             Debug.Log("Победа! Гарри нашёл ключ!");
 
 
-            TeleportData.returnPosition = new Vector2(35.63f, -12.34f);
+            TeleportData.returnPosition = new Vector2(40.63f, -13.34f);
 
             SceneManager.LoadScene("GameScene");
         }
@@ -93,3 +93,4 @@ public class ChessManager : MonoBehaviour
         }
     }
 }
+
