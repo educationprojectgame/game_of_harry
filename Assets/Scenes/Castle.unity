@@ -43493,6 +43493,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 993500053446242568, guid: 175688b78566c4ac3ab6a27a328528b8, type: 3}
+      propertyPath: m_TagString
+      value: WandCollider
+      objectReference: {fileID: 0}
     - target: {fileID: 3861093461047565817, guid: 175688b78566c4ac3ab6a27a328528b8, type: 3}
       propertyPath: m_Name
       value: Player
@@ -43547,7 +43551,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6816014749801636364, guid: 175688b78566c4ac3ab6a27a328528b8, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7637698463157586872, guid: 175688b78566c4ac3ab6a27a328528b8, type: 3}
       propertyPath: target
