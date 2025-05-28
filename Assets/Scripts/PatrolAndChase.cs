@@ -56,14 +56,15 @@ public class PatrolAndChase : MonoBehaviour
     void Patrol()
     {
         Vector2 targetPosition = patrolPoints[currentPatrolIndex].position;
-        SetMoveDirection();
+
         if (Vector2.Distance(transform.position, targetPosition) < closeEnoughDistance)
         {
             currentPatrolIndex = (currentPatrolIndex + 1) % patrolPoints.Length;
+            SetMoveDirection();
         }
 
         // Flip if needed
-        if ((moveDirection.x > 0 && !facingRight) || (moveDirection.x < 0 && facingRight))
+        if ((moveDirection.x < 0 && !facingRight) || (moveDirection.x > 0 && facingRight))
         {
             Flip();
         }
@@ -76,7 +77,7 @@ public class PatrolAndChase : MonoBehaviour
         Vector2 direction = (player.position - transform.position).normalized;
 
         // Flip if needed
-        if ((direction.x > 0 && !facingRight) || (direction.x < 0 && facingRight))
+        if ((direction.x < 0 && !facingRight) || (direction.x > 0 && facingRight))
         {
             Flip();
         }
