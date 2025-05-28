@@ -12,7 +12,7 @@ public class ChessManager1 : MonoBehaviour
     private float cellSize = 1f;
     private Vector2 boardOrigin = new Vector2(-3.5f, -3.5f);
 
-    private Vector2Int keyPosition = new Vector2Int(5, 5); // Ключ в правом верхнем углу
+    private Vector2Int keyPosition = new Vector2Int(5, 5);
     private Vector2Int[] enemyPositions = new Vector2Int[]
     {
         new Vector2Int(3, 4),
@@ -23,13 +23,9 @@ public class ChessManager1 : MonoBehaviour
 
     void Start()
     {
-        // Спавним игрока
         knight = Instantiate(knightPrefab, PositionToWorld(playerPosition), Quaternion.identity);
-
-        // Спавним ключ
         Instantiate(keyPrefab, PositionToWorld(keyPosition), Quaternion.identity);
 
-        // Спавним врагов
         foreach (var pos in enemyPositions)
         {
             Instantiate(enemyPrefab, PositionToWorld(pos), Quaternion.identity);
@@ -72,20 +68,23 @@ public class ChessManager1 : MonoBehaviour
 
     void CheckCollision()
     {
-        // Победа
         if (playerPosition == keyPosition)
         {
             Debug.Log("Победа! Гарри нашёл ключ!");
-            // Можно перезапустить сцену или показать UI
+
+            // Устанавливаем координаты возвращения
+            TeleportData.returnPosition = new Vector2(-70f, -9f);
+
+            // Загружаем сцену карты
+            SceneManager.LoadScene("GameScene"); // Проверь, что сцена есть в Build Settings
         }
 
-        // Проигрыш
         foreach (var enemy in enemyPositions)
         {
             if (playerPosition == enemy)
             {
                 Debug.Log("Гарри пойман врагом! Игра окончена.");
-                SceneManager.LoadScene(SceneManager.GetActiveScene().name); // Перезапуск
+                SceneManager.LoadScene(SceneManager.GetActiveScene().name);
             }
         }
     }
