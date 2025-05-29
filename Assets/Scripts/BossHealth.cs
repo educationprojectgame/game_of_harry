@@ -5,7 +5,7 @@ using UnityEngine.UI;
 public class BossHealth : MonoBehaviour
 {
     public string bossId = "UniqueBossID_Room1";
-    public float maxHealth = 1000;
+    public float maxHealth = 200;
 
     private float currentHealth;
 
@@ -32,7 +32,7 @@ public class BossHealth : MonoBehaviour
         currentHealth -= damage;
         Debug.Log($"Boss {bossId} took {damage} damage, current health: {currentHealth}");
 
-        Bar.fillAmount = currentHealth / 1000;
+        Bar.fillAmount = currentHealth / 100;
         if (maxHealth <= 0 || currentHealth <= 0)
         {
             Die();
