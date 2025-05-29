@@ -517,7 +517,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3843523735041572057, guid: 1e4fc1c8b2a944f1da9f0690b4a04f72, type: 3}
       propertyPath: maxHealth
-      value: 80
+      value: 200
       objectReference: {fileID: 0}
     - target: {fileID: 4107583520786182735, guid: 1e4fc1c8b2a944f1da9f0690b4a04f72, type: 3}
       propertyPath: animator
@@ -31726,7 +31726,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3843523735041572057, guid: 1e4fc1c8b2a944f1da9f0690b4a04f72, type: 3}
       propertyPath: maxHealth
-      value: 80
+      value: 200
       objectReference: {fileID: 0}
     - target: {fileID: 4107583520786182735, guid: 1e4fc1c8b2a944f1da9f0690b4a04f72, type: 3}
       propertyPath: animator
@@ -32180,7 +32180,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3843523735041572057, guid: 1e4fc1c8b2a944f1da9f0690b4a04f72, type: 3}
       propertyPath: maxHealth
-      value: 80
+      value: 200
       objectReference: {fileID: 0}
     - target: {fileID: 4107583520786182735, guid: 1e4fc1c8b2a944f1da9f0690b4a04f72, type: 3}
       propertyPath: animator
@@ -32573,7 +32573,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3843523735041572057, guid: 1e4fc1c8b2a944f1da9f0690b4a04f72, type: 3}
       propertyPath: maxHealth
-      value: 80
+      value: 200
       objectReference: {fileID: 0}
     - target: {fileID: 4107583520786182735, guid: 1e4fc1c8b2a944f1da9f0690b4a04f72, type: 3}
       propertyPath: animator
@@ -38345,7 +38345,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3843523735041572057, guid: 1e4fc1c8b2a944f1da9f0690b4a04f72, type: 3}
       propertyPath: maxHealth
-      value: 80
+      value: 200
       objectReference: {fileID: 0}
     - target: {fileID: 4107583520786182735, guid: 1e4fc1c8b2a944f1da9f0690b4a04f72, type: 3}
       propertyPath: animator
@@ -38458,7 +38458,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3843523735041572057, guid: 1e4fc1c8b2a944f1da9f0690b4a04f72, type: 3}
       propertyPath: maxHealth
-      value: 80
+      value: 200
       objectReference: {fileID: 0}
     - target: {fileID: 4107583520786182735, guid: 1e4fc1c8b2a944f1da9f0690b4a04f72, type: 3}
       propertyPath: animator
@@ -39166,7 +39166,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3843523735041572057, guid: 1e4fc1c8b2a944f1da9f0690b4a04f72, type: 3}
       propertyPath: maxHealth
-      value: 80
+      value: 200
       objectReference: {fileID: 0}
     - target: {fileID: 4107583520786182735, guid: 1e4fc1c8b2a944f1da9f0690b4a04f72, type: 3}
       propertyPath: animator
@@ -42216,7 +42216,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3843523735041572057, guid: 1e4fc1c8b2a944f1da9f0690b4a04f72, type: 3}
       propertyPath: maxHealth
-      value: 80
+      value: 200
       objectReference: {fileID: 0}
     - target: {fileID: 4107583520786182735, guid: 1e4fc1c8b2a944f1da9f0690b4a04f72, type: 3}
       propertyPath: animator
@@ -42835,7 +42835,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3843523735041572057, guid: 1e4fc1c8b2a944f1da9f0690b4a04f72, type: 3}
       propertyPath: maxHealth
-      value: 80
+      value: 200
       objectReference: {fileID: 0}
     - target: {fileID: 4107583520786182735, guid: 1e4fc1c8b2a944f1da9f0690b4a04f72, type: 3}
       propertyPath: animator
@@ -44712,7 +44712,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3843523735041572057, guid: 1e4fc1c8b2a944f1da9f0690b4a04f72, type: 3}
       propertyPath: maxHealth
-      value: 80
+      value: 200
       objectReference: {fileID: 0}
     - target: {fileID: 4107583520786182735, guid: 1e4fc1c8b2a944f1da9f0690b4a04f72, type: 3}
       propertyPath: animator

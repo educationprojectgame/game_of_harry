@@ -9,10 +9,26 @@ public class HealthPlayer : MonoBehaviour
     public float HealthPlay = 100f;
     public Image Bar;
 
+    private void Update()
+    {
+        if (HealthPlay < 100)
+        {
+            HealthPlay += 0.05f;
+            Bar.fillAmount = HealthPlay / 100;
+        }
+
+        if (HealthPlay > 100)
+        {
+            HealthPlay = 100f;
+            Bar.fillAmount = HealthPlay / 100;
+        }
+    }
+
     public void TakeDamage(int damage)
     {
         HealthPlay -= damage;
         Bar.fillAmount = HealthPlay / 100;
+
         if (HealthPlay <= 0)
         {
             Die();
@@ -23,7 +39,7 @@ public class HealthPlayer : MonoBehaviour
     {
         string checkPointScene = PlayerPrefs.GetString("CheckPointScene");
 
-        
+
 
         if (!string.IsNullOrEmpty(checkPointScene))
         {

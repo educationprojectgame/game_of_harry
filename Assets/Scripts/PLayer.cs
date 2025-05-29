@@ -92,7 +92,7 @@ public class Player : MonoBehaviour
 
         if (manna < 100)
         {
-            manna += 0.1f; 
+            manna += 0.3f; 
         }
 
         if (manna < 0)

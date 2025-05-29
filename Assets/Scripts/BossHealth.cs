@@ -5,7 +5,7 @@ using UnityEngine.UI;
 public class BossHealth : MonoBehaviour
 {
     public string bossId = "UniqueBossID_Room1";
-    public float maxHealth = 200;
+    public float maxHealth = 500;
 
     private float currentHealth;
 
