@@ -32,7 +32,7 @@ public class Health : MonoBehaviour
         currentHealth -= damage;
         Debug.Log($"Boss {bossId} took {damage} damage, current health: {currentHealth}");
 
-        Bar.fillAmount = currentHealth / 200;
+        Bar.fillAmount = currentHealth / maxHealth;
         if (maxHealth <= 0 || currentHealth <= 0)
         {
             Die();
