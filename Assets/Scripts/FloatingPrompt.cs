@@ -4,19 +4,30 @@ using UnityEngine.UI;
 
 public class FloatingPrompt : MonoBehaviour
 {
+    [Tooltip("Трансформ NPC, над которым отображается текст.")]
     public Transform npcTransform;
+
+    [Tooltip("Текст подсказки (UI Text).")]
     public Text promptText;
+
+    [Tooltip("Смещение текста по вертикали относительно NPC.")]
     public float offsetY = 1.5f;
-    public float showDistance = 5f;
+
+    [Tooltip("Расстояние, на котором появляется подсказка (используется квадрат расстояния для оптимизации).")]
+    public float showDistanceSquared = 25f; // 5 * 5 (квадрат 5)
+
+    [Tooltip("Трансформ игрока.")]
     public Transform playerTransform;
 
-    void Start()
+    private void Awake()
     {
-        if (npcTransform == null)
+        //Ищем компоненты, если они не были назначены в инспекторе
+        if (npcTransform == null) npcTransform = transform;
+
+        if (playerTransform == null)
         {
-            Debug.LogError("NPC Transform not assigned!", this);
-            enabled = false;
-            return;
+            GameObject player = GameObject.FindGameObjectWithTag("Player");
+            if (player != null) playerTransform = player.transform;
         }
 
         if (promptText == null)
@@ -25,14 +36,17 @@ public class FloatingPrompt : MonoBehaviour
             enabled = false;
             return;
         }
-
-        if (playerTransform == null)
+        if (npcTransform == null || promptText == null || playerTransform == null)
         {
-            Debug.LogError("Player Transform not assigned!", this);
+            Debug.LogError("One or more transforms not assigned", this);
             enabled = false;
             return;
         }
+    }
 
+
+    void Start()
+    {
         promptText.gameObject.SetActive(false);
     }
 
@@ -40,10 +54,13 @@ public class FloatingPrompt : MonoBehaviour
     {
         if (npcTransform == null || promptText == null || playerTransform == null)
         {
-            return;
+            return; // Защита от ошибок, если объекты были уничтожены
         }
-        float distanceToPlayer = Vector3.Distance(npcTransform.position, playerTransform.position);
-        if (distanceToPlayer <= showDistance)
+
+        // Оптимизированное вычисление расстояния
+        float distanceToPlayerSquared = (npcTransform.position - playerTransform.position).sqrMagnitude;
+
+        if (distanceToPlayerSquared <= showDistanceSquared)
         {
             ShowPrompt();
         }
@@ -51,6 +68,8 @@ public class FloatingPrompt : MonoBehaviour
         {
             HidePrompt();
         }
+
+        // Обновление позиции текста, только если он активен
         if (promptText.gameObject.activeSelf)
         {
             promptText.transform.position = npcTransform.position + Vector3.up * offsetY;
@@ -59,17 +78,21 @@ public class FloatingPrompt : MonoBehaviour
 
     void ShowPrompt()
     {
-        if (promptText != null)
-        {
-            promptText.gameObject.SetActive(true);
-        }
+        promptText.gameObject.SetActive(true);
     }
 
     void HidePrompt()
     {
+        promptText.gameObject.SetActive(false);
+    }
+
+    // Отключаем скрипт, когда он больше не нужен
+    private void OnDisable()
+    {
         if (promptText != null)
         {
-            promptText.gameObject.SetActive(false);
+            promptText.gameObject.SetActive(false); // Скрываем текст при отключении
         }
     }
+
 }

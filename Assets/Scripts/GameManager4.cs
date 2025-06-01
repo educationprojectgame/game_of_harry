@@ -74,6 +74,9 @@ public class ChessManager4 : MonoBehaviour
         {
             Debug.Log("Победа! Гарри нашёл ключ!");
 
+            PlayerPrefs.SetFloat("Mana", PlayerPrefs.GetFloat("Mana") + 5);
+            PlayerPrefs.SetFloat("Speed", PlayerPrefs.GetFloat("Speed") + 0.5f);
+
             // Устанавливаем координаты возвращения
             TeleportData.returnPosition = new Vector2(-112.7f, 79.9f);
 

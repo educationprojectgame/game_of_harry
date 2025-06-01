@@ -3,7 +3,7 @@ using UnityEngine.SceneManagement;
 
 public class ChessFieldTrigger1 : MonoBehaviour
 {
-    public string sceneToLoad = "Шахмат2"; // Имя сцены из Build Settings
+    public string sceneToLoad = "Chess2"; // Имя сцены из Build Settings
 
     private void OnTriggerEnter2D(Collider2D other)
     {
