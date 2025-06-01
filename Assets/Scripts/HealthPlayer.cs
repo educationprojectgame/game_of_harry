@@ -13,7 +13,7 @@ public class HealthPlayer : MonoBehaviour
     {
         if (HealthPlay < 100)
         {
-            HealthPlay += 0.05f;
+            HealthPlay += 0.01f;
             Bar.fillAmount = HealthPlay / 100;
         }
 
