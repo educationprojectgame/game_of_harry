@@ -1507,6 +1507,10 @@ PrefabInstance:
       propertyPath: isMonster
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3843523735041572057, guid: 1e4fc1c8b2a944f1da9f0690b4a04f72, type: 3}
+      propertyPath: maxHealth
+      value: 200
+      objectReference: {fileID: 0}
     - target: {fileID: 4107583520786182735, guid: 1e4fc1c8b2a944f1da9f0690b4a04f72, type: 3}
       propertyPath: animator
       value: 
@@ -1537,7 +1541,7 @@ PrefabInstance:
       objectReference: {fileID: 817991379}
     - target: {fileID: 6140399660769669114, guid: 1e4fc1c8b2a944f1da9f0690b4a04f72, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 14.699999
+      value: 1.92
       objectReference: {fileID: 0}
     - target: {fileID: 6140399660769669114, guid: 1e4fc1c8b2a944f1da9f0690b4a04f72, type: 3}
       propertyPath: m_LocalPosition.y
@@ -177226,6 +177230,10 @@ PrefabInstance:
       propertyPath: isMonster
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3843523735041572057, guid: 1e4fc1c8b2a944f1da9f0690b4a04f72, type: 3}
+      propertyPath: maxHealth
+      value: 200
+      objectReference: {fileID: 0}
     - target: {fileID: 4107583520786182735, guid: 1e4fc1c8b2a944f1da9f0690b4a04f72, type: 3}
       propertyPath: animator
       value: 
@@ -177256,7 +177264,7 @@ PrefabInstance:
       objectReference: {fileID: 817991379}
     - target: {fileID: 6140399660769669114, guid: 1e4fc1c8b2a944f1da9f0690b4a04f72, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 17.22
+      value: 6.39
       objectReference: {fileID: 0}
     - target: {fileID: 6140399660769669114, guid: 1e4fc1c8b2a944f1da9f0690b4a04f72, type: 3}
       propertyPath: m_LocalPosition.y
@@ -178031,6 +178039,10 @@ PrefabInstance:
       propertyPath: isMonster
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3843523735041572057, guid: 1e4fc1c8b2a944f1da9f0690b4a04f72, type: 3}
+      propertyPath: maxHealth
+      value: 200
+      objectReference: {fileID: 0}
     - target: {fileID: 4107583520786182735, guid: 1e4fc1c8b2a944f1da9f0690b4a04f72, type: 3}
       propertyPath: animator
       value: 
@@ -178061,11 +178073,11 @@ PrefabInstance:
       objectReference: {fileID: 817991379}
     - target: {fileID: 6140399660769669114, guid: 1e4fc1c8b2a944f1da9f0690b4a04f72, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 17.329998
+      value: 5.7
       objectReference: {fileID: 0}
     - target: {fileID: 6140399660769669114, guid: 1e4fc1c8b2a944f1da9f0690b4a04f72, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 40.6
+      value: 41.81
       objectReference: {fileID: 0}
     - target: {fileID: 6140399660769669114, guid: 1e4fc1c8b2a944f1da9f0690b4a04f72, type: 3}
       propertyPath: m_LocalPosition.z
@@ -178948,6 +178960,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: "\u041A\u0430\u043C\u0435\u043D\u043D\u043E\u0435 \u044F\u0434\u0440\u043E
         + health (4)"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3843523735041572057, guid: 1e4fc1c8b2a944f1da9f0690b4a04f72, type: 3}
+      propertyPath: maxHealth
+      value: 200
       objectReference: {fileID: 0}
     - target: {fileID: 4107583520786182735, guid: 1e4fc1c8b2a944f1da9f0690b4a04f72, type: 3}
       propertyPath: animator
@@ -184886,6 +184902,10 @@ PrefabInstance:
       value: "\u041A\u0430\u043C\u0435\u043D\u043D\u043E\u0435 \u044F\u0434\u0440\u043E
         + health"
       objectReference: {fileID: 0}
+    - target: {fileID: 3843523735041572057, guid: 1e4fc1c8b2a944f1da9f0690b4a04f72, type: 3}
+      propertyPath: maxHealth
+      value: 200
+      objectReference: {fileID: 0}
     - target: {fileID: 4107583520786182735, guid: 1e4fc1c8b2a944f1da9f0690b4a04f72, type: 3}
       propertyPath: animator
       value: 
@@ -184994,6 +185014,10 @@ PrefabInstance:
     - target: {fileID: 3843523735041572057, guid: 1e4fc1c8b2a944f1da9f0690b4a04f72, type: 3}
       propertyPath: isMonster
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3843523735041572057, guid: 1e4fc1c8b2a944f1da9f0690b4a04f72, type: 3}
+      propertyPath: maxHealth
+      value: 200
       objectReference: {fileID: 0}
     - target: {fileID: 4107583520786182735, guid: 1e4fc1c8b2a944f1da9f0690b4a04f72, type: 3}
       propertyPath: animator
@@ -185919,6 +185943,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: "\u041A\u0430\u043C\u0435\u043D\u043D\u043E\u0435 \u044F\u0434\u0440\u043E
         + health (3)"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3843523735041572057, guid: 1e4fc1c8b2a944f1da9f0690b4a04f72, type: 3}
+      propertyPath: maxHealth
+      value: 200
       objectReference: {fileID: 0}
     - target: {fileID: 4107583520786182735, guid: 1e4fc1c8b2a944f1da9f0690b4a04f72, type: 3}
       propertyPath: animator
@@ -192099,6 +192127,10 @@ PrefabInstance:
       propertyPath: isMonster
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3843523735041572057, guid: 1e4fc1c8b2a944f1da9f0690b4a04f72, type: 3}
+      propertyPath: maxHealth
+      value: 200
+      objectReference: {fileID: 0}
     - target: {fileID: 4107583520786182735, guid: 1e4fc1c8b2a944f1da9f0690b4a04f72, type: 3}
       propertyPath: animator
       value: 
@@ -193290,6 +193322,10 @@ PrefabInstance:
       value: "\u041A\u0430\u043C\u0435\u043D\u043D\u043E\u0435 \u044F\u0434\u0440\u043E
         + health"
       objectReference: {fileID: 0}
+    - target: {fileID: 3843523735041572057, guid: 1e4fc1c8b2a944f1da9f0690b4a04f72, type: 3}
+      propertyPath: maxHealth
+      value: 200
+      objectReference: {fileID: 0}
     - target: {fileID: 4107583520786182735, guid: 1e4fc1c8b2a944f1da9f0690b4a04f72, type: 3}
       propertyPath: animator
       value: 
@@ -193320,7 +193356,7 @@ PrefabInstance:
       objectReference: {fileID: 817991379}
     - target: {fileID: 6140399660769669114, guid: 1e4fc1c8b2a944f1da9f0690b4a04f72, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 7.44
+      value: 15.57
       objectReference: {fileID: 0}
     - target: {fileID: 6140399660769669114, guid: 1e4fc1c8b2a944f1da9f0690b4a04f72, type: 3}
       propertyPath: m_LocalPosition.y
@@ -194160,6 +194196,14 @@ PrefabInstance:
       propertyPath: m_TagString
       value: WandCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 2680177954291785023, guid: 175688b78566c4ac3ab6a27a328528b8, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2805406448021403422, guid: 175688b78566c4ac3ab6a27a328528b8, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3861093461047565817, guid: 175688b78566c4ac3ab6a27a328528b8, type: 3}
       propertyPath: m_Name
       value: Player
@@ -194212,8 +194256,24 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5981087425258806572, guid: 175688b78566c4ac3ab6a27a328528b8, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -811187076716482515, guid: 476116d5357d54942b5472aeb3f0b4d7, type: 3}
+    - target: {fileID: 5981087425258806572, guid: 175688b78566c4ac3ab6a27a328528b8, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6306127241600435550, guid: 175688b78566c4ac3ab6a27a328528b8, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6816014749801636364, guid: 175688b78566c4ac3ab6a27a328528b8, type: 3}
       propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7605550524599901425, guid: 175688b78566c4ac3ab6a27a328528b8, type: 3}
+      propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7637698463157586872, guid: 175688b78566c4ac3ab6a27a328528b8, type: 3}
@@ -198215,6 +198275,10 @@ PrefabInstance:
       propertyPath: isMonster
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3843523735041572057, guid: 1e4fc1c8b2a944f1da9f0690b4a04f72, type: 3}
+      propertyPath: maxHealth
+      value: 200
+      objectReference: {fileID: 0}
     - target: {fileID: 4107583520786182735, guid: 1e4fc1c8b2a944f1da9f0690b4a04f72, type: 3}
       propertyPath: animator
       value: 
@@ -198245,7 +198309,7 @@ PrefabInstance:
       objectReference: {fileID: 817991379}
     - target: {fileID: 6140399660769669114, guid: 1e4fc1c8b2a944f1da9f0690b4a04f72, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 7.74
+      value: 21.25
       objectReference: {fileID: 0}
     - target: {fileID: 6140399660769669114, guid: 1e4fc1c8b2a944f1da9f0690b4a04f72, type: 3}
       propertyPath: m_LocalPosition.y

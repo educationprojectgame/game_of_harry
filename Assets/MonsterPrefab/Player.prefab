@@ -141,7 +141,7 @@ Canvas:
   m_AdditionalShaderChannelsFlag: 0
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 50
+  m_SortingOrder: 49
   m_TargetDisplay: 0
 --- !u!114 &7774581291602458270
 MonoBehaviour:
@@ -1061,8 +1061,8 @@ Canvas:
   m_GameObject: {fileID: 2680177954291785023}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 0
-  m_Camera: {fileID: 0}
+  m_RenderMode: 1
+  m_Camera: {fileID: 5853257842507729787}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
@@ -1073,7 +1073,7 @@ Canvas:
   m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 50
   m_TargetDisplay: 0
 --- !u!114 &2863426750268461073
 MonoBehaviour:
@@ -1347,7 +1347,7 @@ GameObject:
   - component: {fileID: 2123876690307843170}
   m_Layer: 0
   m_Name: Player
-  m_TagString: PlayerGame
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2740,7 +2740,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7999672970392353903}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
@@ -2753,7 +2753,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 2823211243130321003, guid: ad103f7a663422d409e62bbd222c7c1d, type: 3}
+  m_Sprite: {fileID: -7487393687645014365, guid: 3b9a97519b6ec4241aae8630e6e585ef, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

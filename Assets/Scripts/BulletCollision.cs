@@ -9,8 +9,8 @@ public class BulletCollision : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        // Опционально: проверяем тег, чтобы не уничтожаться от "своих"
-        if (!other.CompareTag("PlayerGame") && !other.CompareTag("WandCollider"))
+        // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ: пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ "пїЅпїЅпїЅпїЅпїЅ"
+        if (!other.CompareTag("PlayerGame") && !other.CompareTag("WandCollider") && !other.CompareTag("Water"))
         {
             Destroy(gameObject);
         }

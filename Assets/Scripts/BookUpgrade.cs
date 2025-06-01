@@ -3,6 +3,7 @@ using UnityEngine;
 public class BookUpgrade : MonoBehaviour
 {
     [Header("Статы для улучшения")]
+    public string chestName;
     public float healthIncrease = 10f;    // Сколько добавить HP
     public float manaIncrease = 15f;     // Сколько добавить маны
     public float speedIncrease = 1f;     // Сколько добавить скорости
@@ -14,7 +15,8 @@ public class BookUpgrade : MonoBehaviour
 
     void Start()
     {
-        if (PlayerPrefs.GetInt("ChestIsOpened") == 1)
+        var chestExp = chestName + "IsOpened";
+        if (PlayerPrefs.GetInt(chestExp) == 1)
             chest.SetActive(false);
     }
 
@@ -39,13 +41,14 @@ public class BookUpgrade : MonoBehaviour
 
     void Update()
     {
+        var chestExp = chestName + "IsOpened";
         // Если игрок рядом и нажал E
-        if (player != null && Input.GetKeyDown(KeyCode.E) && !isUpgraded)
+        if (player != null && Input.GetKeyDown(KeyCode.E))
         {
             UpgradePlayerStats();
             isUpgraded = true;  // Запрещаем повторное улучшение
             chest.SetActive(false);
-            PlayerPrefs.SetInt("ChestIsOpened", 1);
+            PlayerPrefs.SetInt(chestExp, 1);
             Debug.Log("Статы улучшены!");
         }
     }
