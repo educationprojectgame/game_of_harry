@@ -15,6 +15,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Library.unity
     guid: 3e259906757153f438871a5682f97bda
   - enabled: 1
+    path: "Assets/Scenes/\u0418\u0433\u0440\u0430 2.unity"
+    guid: 9deac9b6a1233aa4482bd8775585d687
+  - enabled: 1
     path: Assets/Scenes/Castle.unity
     guid: 55e67ff8524fd4e8893c507b68f9a627
   - enabled: 1

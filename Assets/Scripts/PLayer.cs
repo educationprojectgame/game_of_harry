@@ -18,6 +18,7 @@ public class Player : MonoBehaviour
     [SerializeField] private Transform shootPos;
     
     public Image BarManna;
+    public float moveSpeed = 5f;
 
     private Vector2 moveInput;
     private bool isDashing;
@@ -74,7 +75,10 @@ public class Player : MonoBehaviour
 
     private void Update()
     {
-        
+        float moveX = Input.GetAxisRaw("Horizontal");
+        float moveY = Input.GetAxisRaw("Vertical");
+
+        transform.position += new Vector3(moveX, moveY, 0) * moveSpeed * Time.deltaTime;
 
         // Получаем ввод
         moveInput = new Vector2(
