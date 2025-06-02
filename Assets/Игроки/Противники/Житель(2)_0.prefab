@@ -78,7 +78,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 17
-  m_Sprite: {fileID: -8986413935637628604, guid: a7109de96e015364db314e9bdd7b9549, type: 3}
+  m_Sprite: {fileID: 128700158411668363, guid: 90e1ffed02ff2e74ca1f7330727c9aa5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -101,6 +101,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7584ece9ca4a9324fa87446baeded437, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  requiredItemIdForSpecialDialogue: Crystall
+  defaultDialogue: []
+  specialDialogueAfterItemCollected: []
   interactionDistance: 2
   dialogueBoxPrefab: {fileID: 8316737730571024803, guid: 7211dfaacd14c1b45ad396dabb2b2613, type: 3}
   playerTransform: {fileID: 0}
@@ -121,5 +124,5 @@ MonoBehaviour:
   npcTransform: {fileID: 3625525110281289271}
   promptText: {fileID: 0}
   offsetY: 1.5
-  showDistance: 5
+  showDistanceSquared: 25
   playerTransform: {fileID: 0}
