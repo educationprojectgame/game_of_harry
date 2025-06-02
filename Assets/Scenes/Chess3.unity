@@ -373,6 +373,7 @@ GameObject:
   - component: {fileID: 771308516}
   - component: {fileID: 771308515}
   - component: {fileID: 771308517}
+  - component: {fileID: 771308518}
   m_Layer: 0
   m_Name: "\u0428\u0430\u0445\u043C\u0430\u0442\u044B 3_0"
   m_TagString: Untagged
@@ -465,6 +466,19 @@ MonoBehaviour:
   knightPrefab: {fileID: 3372220473701838613, guid: 3b1c4aba366c7aa4b861aff0e071f429, type: 3}
   enemyPrefab: {fileID: 8761803697309981702, guid: 69a5c05414fe43d4b93b99336c0ad7f2, type: 3}
   keyPrefab: {fileID: 5600815540541359, guid: be5f2f0f02db5be4aaa0fb616a7f1dbf, type: 3}
+--- !u!114 &771308518
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 771308514}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7d4c9e79ec614360a0ee84229aec743, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneNameToLoad: Castle
 --- !u!1 &983881656
 GameObject:
   m_ObjectHideFlags: 0
