@@ -478,7 +478,9 @@ MonoBehaviour:
   cellSize: 1
   timeToReach: 2.5
   totalRounds: 100
-  victorySceneName: Castle
+  victorySceneName: "\u0418\u0433\u0440\u0430 2"
+  exitSceneName: Castle
+  exitCell: {x: 7, y: 0}
 --- !u!4 &1421328687
 Transform:
   m_ObjectHideFlags: 0

@@ -1,6 +1,6 @@
 ﻿using System.Collections;
 using UnityEngine;
-using UnityEngine.SceneManagement; // ⬅ добавим для смены сцены
+using UnityEngine.SceneManagement;
 
 public class BlueTileQuest2D : MonoBehaviour
 {
@@ -11,7 +11,9 @@ public class BlueTileQuest2D : MonoBehaviour
     public float cellSize = 1f;
     public float timeToReach = 2.5f;
     public int totalRounds = 5;
-    public string victorySceneName = "Castle"; // Название сцены для победы
+    public string victorySceneName = "Игра 2";      // Сцена при победе
+    public string exitSceneName = "Castle";         // Сцена при выходе по координате или клавише
+    public Vector2Int exitCell = new Vector2Int(7, 0); // Координаты выхода
 
     private GameObject currentBlueTile;
     private Vector2Int currentTarget;
@@ -20,6 +22,32 @@ public class BlueTileQuest2D : MonoBehaviour
     void Start()
     {
         StartCoroutine(QuestRoutine());
+    }
+
+    void Update()
+    {
+        // Выход или переход при нажатии на клавишу E
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            string currentScene = SceneManager.GetActiveScene().name;
+
+            if (currentScene == "Игра 2")
+            {
+                Debug.Log("Нажата E на сцене 'Игра 2'. Переход на сцену Castle.");
+                SceneManager.LoadScene(exitSceneName);
+            }
+            else
+            {
+                Debug.Log("Выход из игры (не в сцене 'Игра 2')");
+                Application.Quit();
+#if UNITY_EDITOR
+                UnityEditor.EditorApplication.isPlaying = false;
+#endif
+            }
+        }
+
+        // Проверка выхода по координате
+        CheckExitCell();
     }
 
     IEnumerator QuestRoutine()
@@ -64,12 +92,22 @@ public class BlueTileQuest2D : MonoBehaviour
         Vector2Int playerCell = WorldToCell(player.position);
         if (playerCell == currentTarget)
         {
-            Debug.Log(" Успел встать на синюю клетку");
+            Debug.Log("Успел встать на синюю клетку");
             successCount++;
         }
         else
         {
-            Debug.Log(" Не успел");
+            Debug.Log("Не успел");
+        }
+    }
+
+    void CheckExitCell()
+    {
+        Vector2Int playerCell = WorldToCell(player.position);
+        if (playerCell == exitCell)
+        {
+            Debug.Log("Игрок встал на клетку выхода! Загружается сцена: " + exitSceneName);
+            SceneManager.LoadScene(exitSceneName);
         }
     }
 

@@ -7,7 +7,7 @@ public class ChessFieldTrigger4 : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("Player"))
+        if (other.CompareTag("Player") || other.CompareTag("PlayerGame"))
         {
             Debug.Log("Игрок наступил на клетку. Загружаем сцену " + sceneToLoad);
             SceneManager.LoadScene(sceneToLoad);
